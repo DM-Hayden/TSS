@@ -2,21 +2,17 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "mhmm",
-				"abbreviation": "MHMM",
-				"full": "Monster Hunter Monster Manual",
+				"json": "TSS",
+				"abbreviation": "TSS",
+				"full": "TSS",
 				"authors": [
-					"/u/Amellwind"
+					"Various"
 				],
 				"convertedBy": [
-					"LordDusk",
-					"TheGiddyLimit",
-					"Modnar",
-					"Desorda",
-					"cellescent"
+					"Various"
 				],
-				"version": "2021/04/30",
-				"url": "https://www.gmbinder.com/share/-L0j3FWNhBx15I-lR7qC",
+				"version": "2021/06/01",
+				"url": "",
 				"targetSchema": "1.0.0"
 			}
 		],
@@ -25,11 +21,11 @@
 	},
 	"book": [
 		{
-			"name": "Monster Hunter Monster Manual",
-			"id": "MHMM",
-			"source": "mhmm",
-			"author": "Amellwind",
-			"published": "2021/03/06",
+			"name": "TSS",
+			"id": "TSS",
+			"source": "TSS",
+			"author": "Various",
+			"published": "2021/06/01",
 			"contents": [
 				{
 					"name": "Conditions, Poisons, and Diseases"
@@ -90,8 +86,8 @@
 	],
 	"bookData": [
 		{
-			"id": "MHMM",
-			"source": "mhmm",
+			"id": "TSS",
+			"source": "TSS",
 			"data": [
 				{
 					"type": "section",
@@ -102,12 +98,12 @@
 						{
 							"type": "list",
 							"items": [
-								"{@condition Dragonblight|MHMM}",
-								"Disease: {@condition Iceblight|MHMM}",
-								"Condition: {@condition Slick|MHMM}",
-								"Condition: {@condition Tarred|MHMM}",
-								"{@condition Thunderblight|MHMM}",
-								"Poison: {@condition Waterblight|MHMM}"
+								"{@condition Dragonblight|TSS}",
+								"Disease: {@condition Iceblight|TSS}",
+								"Condition: {@condition Slick|TSS}",
+								"Condition: {@condition Tarred|TSS}",
+								"{@condition Thunderblight|TSS}",
+								"Poison: {@condition Waterblight|TSS}"
 							]
 						}
 					]
@@ -122,36 +118,36 @@
 						{
 							"type": "list",
 							"items": [
-								"{@creature Jaggi|MHMM}",
-								"{@creature Jaggia|MHMM}",
-								"{@creature Great Jaggi|MHMM}",
-								"{@creature Baggi|MHMM}",
-								"{@creature Great Baggi|MHMM}",
-								"{@creature Wroggi|MHMM}",
-								"{@creature Great Wroggi|MHMM}",
-								"{@creature Velociprey|MHMM}",
-								"{@creature Velocidrome|MHMM}",
-								"{@creature Genprey|MHMM}",
-								"{@creature Gendrome|MHMM}",
-								"{@creature Ioprey|MHMM}",
-								"{@creature Iodrome|MHMM}",
-								"{@creature Giaprey|MHMM}",
-								"{@creature Giadrome|MHMM}",
-								"{@creature Maccao|MHMM}",
-								"{@creature Great Maccao|MHMM}",
-								"{@creature Kulu-Ya-Ku|MHMM}",
-								"{@creature Tzitzi-Ya-Ku|MHMM}",
-								"{@creature Yian Kut-ku|MHMM}",
-								"{@creature Blue Yian Kut-ku|MHMM}",
-								"{@creature Hypnocatrice|MHMM}",
-								"{@creature Pukei-Pukei|MHMM}",
-								"{@creature Coral Pukei-Pukei|MHMM}",
-								"{@creature Qurupeco|MHMM}",
-								"{@creature Crimson Qurupeco|MHMM}",
-								"{@creature Yian Garuga|MHMM}",
-								"{@creature Scarred Yian Garuga|MHMM}",
-								"{@creature Gypceros|MHMM}",
-								"{@creature Malfestio|MHMM}"
+								"{@creature Jaggi|TSS}",
+								"{@creature Jaggia|TSS}",
+								"{@creature Great Jaggi|TSS}",
+								"{@creature Baggi|TSS}",
+								"{@creature Great Baggi|TSS}",
+								"{@creature Wroggi|TSS}",
+								"{@creature Great Wroggi|TSS}",
+								"{@creature Velociprey|TSS}",
+								"{@creature Velocidrome|TSS}",
+								"{@creature Genprey|TSS}",
+								"{@creature Gendrome|TSS}",
+								"{@creature Ioprey|TSS}",
+								"{@creature Iodrome|TSS}",
+								"{@creature Giaprey|TSS}",
+								"{@creature Giadrome|TSS}",
+								"{@creature Maccao|TSS}",
+								"{@creature Great Maccao|TSS}",
+								"{@creature Kulu-Ya-Ku|TSS}",
+								"{@creature Tzitzi-Ya-Ku|TSS}",
+								"{@creature Yian Kut-ku|TSS}",
+								"{@creature Blue Yian Kut-ku|TSS}",
+								"{@creature Hypnocatrice|TSS}",
+								"{@creature Pukei-Pukei|TSS}",
+								"{@creature Coral Pukei-Pukei|TSS}",
+								"{@creature Qurupeco|TSS}",
+								"{@creature Crimson Qurupeco|TSS}",
+								"{@creature Yian Garuga|TSS}",
+								"{@creature Scarred Yian Garuga|TSS}",
+								"{@creature Gypceros|TSS}",
+								"{@creature Malfestio|TSS}"
 							]
 						}
 					]
@@ -166,21 +162,21 @@
 						{
 							"type": "list",
 							"items": [
-								"{@creature Bullfango|MHMM}",
-								"{@creature Bulldrome|MHMM}",
-								"{@creature Wulg|MHMM}",
-								"{@creature Lagombi|MHMM}",
-								"{@creature Arzuros|MHMM}",
-								"{@creature Volvidon|MHMM}",
-								"{@creature Kecha Wacha|MHMM}",
-								"{@creature Conga|MHMM}",
-								"{@creature Congalala|MHMM}",
-								"{@creature Blango|MHMM}",
-								"{@creature Blangonga|MHMM}",
-								"{@creature Rajang|MHMM}",
-								"{@creature Furious Rajang|MHMM}",
-								"{@creature Gammoth|MHMM}",
-								"{@creature Young Gammoth|MHMM}"
+								"{@creature Bullfango|TSS}",
+								"{@creature Bulldrome|TSS}",
+								"{@creature Wulg|TSS}",
+								"{@creature Lagombi|TSS}",
+								"{@creature Arzuros|TSS}",
+								"{@creature Volvidon|TSS}",
+								"{@creature Kecha Wacha|TSS}",
+								"{@creature Conga|TSS}",
+								"{@creature Congalala|TSS}",
+								"{@creature Blango|TSS}",
+								"{@creature Blangonga|TSS}",
+								"{@creature Rajang|TSS}",
+								"{@creature Furious Rajang|TSS}",
+								"{@creature Gammoth|TSS}",
+								"{@creature Young Gammoth|TSS}"
 							]
 						}
 					]
@@ -194,30 +190,30 @@
 						{
 							"type": "list",
 							"items": [
-								"{@creature Giggi|MHMM}",
-								"{@creature Gigginox|MHMM}",
-								"{@creature Basarios|MHMM}",
-								"{@creature Gravios|MHMM}",
-								"{@creature Seregios|MHMM}",
-								"{@creature Paolumu|MHMM}",
-								"{@creature Nightshade Paolumu|MHMM}",
-								"{@creature Astalos|MHMM}",
-								"{@creature Rathian|MHMM}",
-								"{@creature Rathalos|MHMM}",
-								"{@creature Khezu|MHMM}",
-								"{@creature Nargacuga|MHMM}",
-								"{@creature Silverwind Nargacuga|MHMM}",
-								"{@creature Monoblos|MHMM}",
-								"{@creature Diablos|MHMM}",
-								"{@creature Legiana|MHMM}",
-								"{@creature Shrieking Legiana|MHMM}",
-								"{@creature Barioth|MHMM}",
-								"{@creature Tigrex|MHMM}",
-								"{@creature Brute Tigrex|MHMM}",
-								"{@creature Bazelgeuse|MHMM}",
-								"{@creature Seething Bazelgeuse|MHMM}",
-								"{@creature Ukanlos|MHMM}",
-								"{@creature Akantor|MHMM}"
+								"{@creature Giggi|TSS}",
+								"{@creature Gigginox|TSS}",
+								"{@creature Basarios|TSS}",
+								"{@creature Gravios|TSS}",
+								"{@creature Seregios|TSS}",
+								"{@creature Paolumu|TSS}",
+								"{@creature Nightshade Paolumu|TSS}",
+								"{@creature Astalos|TSS}",
+								"{@creature Rathian|TSS}",
+								"{@creature Rathalos|TSS}",
+								"{@creature Khezu|TSS}",
+								"{@creature Nargacuga|TSS}",
+								"{@creature Silverwind Nargacuga|TSS}",
+								"{@creature Monoblos|TSS}",
+								"{@creature Diablos|TSS}",
+								"{@creature Legiana|TSS}",
+								"{@creature Shrieking Legiana|TSS}",
+								"{@creature Barioth|TSS}",
+								"{@creature Tigrex|TSS}",
+								"{@creature Brute Tigrex|TSS}",
+								"{@creature Bazelgeuse|TSS}",
+								"{@creature Seething Bazelgeuse|TSS}",
+								"{@creature Ukanlos|TSS}",
+								"{@creature Akantor|TSS}"
 							]
 						}
 					]
@@ -231,19 +227,19 @@
 						{
 							"type": "list",
 							"items": [
-								"{@creature Barroth|MHMM}",
-								"{@creature Uragaan|MHMM}",
-								"{@creature Anjanath|MHMM}",
-								"{@creature Fulgur Anjanath|MHMM}",
-								"{@creature Duramboros|MHMM}",
-								"{@creature Radobaan|MHMM}",
-								"{@creature Banbaro|MHMM}",
-								"{@creature Glavenus|MHMM}",
-								"{@creature Acidic Glavenus|MHMM}",
-								"{@creature Brachydios|MHMM}",
-								"{@creature Raging Brachydios|MHMM}",
-								"{@creature Deviljho|MHMM}",
-								"{@creature Savage Deviljho|MHMM}"
+								"{@creature Barroth|TSS}",
+								"{@creature Uragaan|TSS}",
+								"{@creature Anjanath|TSS}",
+								"{@creature Fulgur Anjanath|TSS}",
+								"{@creature Duramboros|TSS}",
+								"{@creature Radobaan|TSS}",
+								"{@creature Banbaro|TSS}",
+								"{@creature Glavenus|TSS}",
+								"{@creature Acidic Glavenus|TSS}",
+								"{@creature Brachydios|TSS}",
+								"{@creature Raging Brachydios|TSS}",
+								"{@creature Deviljho|TSS}",
+								"{@creature Savage Deviljho|TSS}"
 							]
 						}
 					]
@@ -257,17 +253,17 @@
 						{
 							"type": "list",
 							"items": [
-								"{@creature Zinogre|MHMM}",
-								"{@creature Jagras|MHMM}",
-								"{@creature Great Jagras|MHMM}",
-								"{@creature Girros|MHMM}",
-								"{@creature Great Girros|MHMM}",
-								"{@creature Dodogama|MHMM}",
-								"{@creature Shamos|MHMM}",
-								"{@creature Tobi-Kadachi|MHMM}",
-								"{@creature Viper Tobi-Kadachi|MHMM}",
-								"{@creature Odogaron|MHMM}",
-								"{@creature Ebony Odogaron|MHMM}"
+								"{@creature Zinogre|TSS}",
+								"{@creature Jagras|TSS}",
+								"{@creature Great Jagras|TSS}",
+								"{@creature Girros|TSS}",
+								"{@creature Great Girros|TSS}",
+								"{@creature Dodogama|TSS}",
+								"{@creature Shamos|TSS}",
+								"{@creature Tobi-Kadachi|TSS}",
+								"{@creature Viper Tobi-Kadachi|TSS}",
+								"{@creature Odogaron|TSS}",
+								"{@creature Ebony Odogaron|TSS}"
 							]
 						}
 					]
@@ -281,16 +277,16 @@
 						{
 							"type": "list",
 							"items": [
-								"{@creature Gore Magala|MHMM}",
-								"{@creature Shagaru Magala|MHMM}",
-								"{@creature Leshen|MHMM}",
-								"{@creature Ancient Leshen|MHMM}"
+								"{@creature Gore Magala|TSS}",
+								"{@creature Shagaru Magala|TSS}",
+								"{@creature Leshen|TSS}",
+								"{@creature Ancient Leshen|TSS}"
 							]
 						},
 						{
 							"type": "homebrew",
 							"entries": [
-								"This section also contains the definition of the {@condition Frenzy Virus|MHMM}."
+								"This section also contains the definition of the {@condition Frenzy Virus|TSS}."
 							]
 						}
 					]
@@ -304,14 +300,14 @@
 						{
 							"type": "list",
 							"items": [
-								"{@creature Ludroth|MHMM}",
-								"{@creature Royal Ludroth|MHMM}",
-								"{@creature Uroktor|MHMM}",
-								"{@creature Agnaktor|MHMM}",
-								"{@creature Gobul|MHMM}",
-								"{@creature Nibelsnarf|MHMM}",
-								"{@creature Mizutsune|MHMM}",
-								"{@creature Lagiacrus|MHMM}"
+								"{@creature Ludroth|TSS}",
+								"{@creature Royal Ludroth|TSS}",
+								"{@creature Uroktor|TSS}",
+								"{@creature Agnaktor|TSS}",
+								"{@creature Gobul|TSS}",
+								"{@creature Nibelsnarf|TSS}",
+								"{@creature Mizutsune|TSS}",
+								"{@creature Lagiacrus|TSS}"
 							]
 						}
 					]
@@ -325,9 +321,9 @@
 						{
 							"type": "list",
 							"items": [
-								"{@creature Tetsucabra|MHMM}",
-								"{@creature Zamite|MHMM}",
-								"{@creature Zamtrios|MHMM}"
+								"{@creature Tetsucabra|TSS}",
+								"{@creature Zamite|TSS}",
+								"{@creature Zamtrios|TSS}"
 							]
 						}
 					]
@@ -341,11 +337,11 @@
 						{
 							"type": "list",
 							"items": [
-								"{@creature Hermitaur|MHMM}",
-								"{@creature Daimyo Hermitaur|MHMM}",
-								"{@creature Ceanataur|MHMM}",
-								"{@creature Shogun Ceanataur|MHMM}",
-								"{@creature Shen Gaoren|MHMM}"
+								"{@creature Hermitaur|TSS}",
+								"{@creature Daimyo Hermitaur|TSS}",
+								"{@creature Ceanataur|TSS}",
+								"{@creature Shogun Ceanataur|TSS}",
+								"{@creature Shen Gaoren|TSS}"
 							]
 						}
 					]
@@ -359,14 +355,14 @@
 						{
 							"type": "list",
 							"items": [
-								"{@creature Cephalos|MHMM}",
-								"{@creature Cephadrome|MHMM}",
-								"{@creature Delex|MHMM}",
-								"{@creature Gajau|MHMM}",
-								"{@creature Plesioth|MHMM}",
-								"{@creature Jyuratodus|MHMM}",
-								"{@creature Beotodus|MHMM}",
-								"{@creature Lavasioth|MHMM}"
+								"{@creature Cephalos|TSS}",
+								"{@creature Cephadrome|TSS}",
+								"{@creature Delex|TSS}",
+								"{@creature Gajau|TSS}",
+								"{@creature Plesioth|TSS}",
+								"{@creature Jyuratodus|TSS}",
+								"{@creature Beotodus|TSS}",
+								"{@creature Lavasioth|TSS}"
 							]
 						}
 					]
@@ -380,17 +376,17 @@
 						{
 							"type": "list",
 							"items": [
-								"{@creature Altaroth|MHMM}",
-								"{@creature Bnahabra|MHMM}",
-								"{@creature Hornetaur|MHMM}",
-								"{@creature Vespoid|MHMM}",
-								"{@creature Vespoid Queen|MHMM}",
-								"{@creature Great Thunderbug|MHMM}",
-								"{@creature Konchu|MHMM}",
-								"{@creature Seltas|MHMM}",
-								"{@creature Seltas Queen|MHMM}",
-								"{@creature Ahtal-Ka|MHMM}",
-								"{@creature Ahtal-Neset|MHMM}"
+								"{@creature Altaroth|TSS}",
+								"{@creature Bnahabra|TSS}",
+								"{@creature Hornetaur|TSS}",
+								"{@creature Vespoid|TSS}",
+								"{@creature Vespoid Queen|TSS}",
+								"{@creature Great Thunderbug|TSS}",
+								"{@creature Konchu|TSS}",
+								"{@creature Seltas|TSS}",
+								"{@creature Seltas Queen|TSS}",
+								"{@creature Ahtal-Ka|TSS}",
+								"{@creature Ahtal-Neset|TSS}"
 							]
 						}
 					]
@@ -404,7 +400,7 @@
 						{
 							"type": "list",
 							"items": [
-								"{@creature Nerscylla|MHMM}"
+								"{@creature Nerscylla|TSS}"
 							]
 						}
 					]
@@ -419,47 +415,47 @@
 						{
 							"type": "list",
 							"items": [
-								"{@creature Dire Miralis|MHMM}",
-								"{@creature Tempered Dire Miralis|MHMM}",
-								"{@creature Archtempered Dire Miralis|MHMM}",
-								"{@creature Kirin|MHMM}",
-								"{@creature Lunastra|MHMM}",
-								"{@creature Tempered Lunastra|MHMM}",
-								"{@creature Teostra|MHMM}",
-								"{@creature Tempered Teostra|MHMM}",
-								"{@creature Chameleos|MHMM}",
-								"{@creature Namielle|MHMM}",
-								"{@creature Tempered Namielle|MHMM}",
-								"{@creature Archtempered Namielle|MHMM}",
-								"{@creature Kushala Daora|MHMM}",
-								"{@creature Valstrax|MHMM}",
-								"{@creature Amatsumagatsuchi|MHMM}",
-								"{@creature Velkhana|MHMM}",
-								"{@creature Tempered Velkhana|MHMM}",
-								"{@creature Archtempered Velkhana|MHMM}",
-								"{@creature Dalamadur|MHMM}",
-								"{@creature Yama Tsukami|MHMM}",
-								"{@creature Gogmazios|MHMM}",
-								"{@creature Nakarkos|MHMM}",
-								"{@creature Alatreon|MHMM}",
-								"{@creature Tempered Alatreon|MHMM}",
-								"{@creature Kulve Taroth|MHMM}",
-								"{@creature Nergigante|MHMM}",
-								"{@creature Ruiner Nergigante|MHMM}",
-								"{@creature Vaal Hazak|MHMM}",
-								"{@creature Blackveil Vaal Hazak|MHMM}",
-								"{@creature Shara Ishvalda (Shell)|MHMM}",
-								"{@creature Shara Ishvalda (True Form)|MHMM}",
-								"{@creature Xeno'jiiva|MHMM}",
-								"{@creature Ceadeus|MHMM}",
-								"{@creature Jhen Mohran|MHMM}",
-								"{@creature Dah'ren Mohran|MHMM}",
-								"{@creature Behemoth|MHMM}",
-								"{@creature Fatalis|MHMM}",
-								"{@creature Tempered Fatalis|MHMM}",
-								"{@creature Safi'jiiva|MHMM}",
-								"{@creature Shah Dalamadur|MHMM}",
-								"{@creature Lao-Shan Lung|MHMM}"
+								"{@creature Dire Miralis|TSS}",
+								"{@creature Tempered Dire Miralis|TSS}",
+								"{@creature Archtempered Dire Miralis|TSS}",
+								"{@creature Kirin|TSS}",
+								"{@creature Lunastra|TSS}",
+								"{@creature Tempered Lunastra|TSS}",
+								"{@creature Teostra|TSS}",
+								"{@creature Tempered Teostra|TSS}",
+								"{@creature Chameleos|TSS}",
+								"{@creature Namielle|TSS}",
+								"{@creature Tempered Namielle|TSS}",
+								"{@creature Archtempered Namielle|TSS}",
+								"{@creature Kushala Daora|TSS}",
+								"{@creature Valstrax|TSS}",
+								"{@creature Amatsumagatsuchi|TSS}",
+								"{@creature Velkhana|TSS}",
+								"{@creature Tempered Velkhana|TSS}",
+								"{@creature Archtempered Velkhana|TSS}",
+								"{@creature Dalamadur|TSS}",
+								"{@creature Yama Tsukami|TSS}",
+								"{@creature Gogmazios|TSS}",
+								"{@creature Nakarkos|TSS}",
+								"{@creature Alatreon|TSS}",
+								"{@creature Tempered Alatreon|TSS}",
+								"{@creature Kulve Taroth|TSS}",
+								"{@creature Nergigante|TSS}",
+								"{@creature Ruiner Nergigante|TSS}",
+								"{@creature Vaal Hazak|TSS}",
+								"{@creature Blackveil Vaal Hazak|TSS}",
+								"{@creature Shara Ishvalda (Shell)|TSS}",
+								"{@creature Shara Ishvalda (True Form)|TSS}",
+								"{@creature Xeno'jiiva|TSS}",
+								"{@creature Ceadeus|TSS}",
+								"{@creature Jhen Mohran|TSS}",
+								"{@creature Dah'ren Mohran|TSS}",
+								"{@creature Behemoth|TSS}",
+								"{@creature Fatalis|TSS}",
+								"{@creature Tempered Fatalis|TSS}",
+								"{@creature Safi'jiiva|TSS}",
+								"{@creature Shah Dalamadur|TSS}",
+								"{@creature Lao-Shan Lung|TSS}"
 							]
 						}
 					]
@@ -473,14 +469,14 @@
 						{
 							"type": "list",
 							"items": [
-								"{@creature Felyne|MHMM}",
-								"{@creature Melynx|MHMM}",
-								"{@creature Wild Melynx|MHMM}",
-								"{@creature Boaboa|MHMM}",
-								"{@creature Grimalkyne|MHMM}",
-								"{@creature Shakalaka|MHMM}",
-								"{@creature King Shakalaka|MHMM}",
-								"{@creature Gajalaka|MHMM}"
+								"{@creature Felyne|TSS}",
+								"{@creature Melynx|TSS}",
+								"{@creature Wild Melynx|TSS}",
+								"{@creature Boaboa|TSS}",
+								"{@creature Grimalkyne|TSS}",
+								"{@creature Shakalaka|TSS}",
+								"{@creature King Shakalaka|TSS}",
+								"{@creature Gajalaka|TSS}"
 							]
 						}
 					]
@@ -494,20 +490,20 @@
 						{
 							"type": "list",
 							"items": [
-								"{@creature Kelbi|MHMM}",
-								"{@creature Anteka|MHMM}",
-								"{@creature Apceros|MHMM}",
-								"{@creature Aptonoth|MHMM}",
-								"{@creature Popo|MHMM}",
-								"{@creature Slagtoth|MHMM}",
-								"{@creature Epioth|MHMM}",
-								"{@creature Rhenoplos|MHMM}",
-								"{@creature Gargwa|MHMM}",
-								"{@creature Larinoth|MHMM}",
-								"{@creature Gastodon|MHMM}",
-								"{@creature Kestodon|MHMM}",
-								"{@creature Mosswine|MHMM}",
-								"{@creature Moofah|MHMM}"
+								"{@creature Kelbi|TSS}",
+								"{@creature Anteka|TSS}",
+								"{@creature Apceros|TSS}",
+								"{@creature Aptonoth|TSS}",
+								"{@creature Popo|TSS}",
+								"{@creature Slagtoth|TSS}",
+								"{@creature Epioth|TSS}",
+								"{@creature Rhenoplos|TSS}",
+								"{@creature Gargwa|TSS}",
+								"{@creature Larinoth|TSS}",
+								"{@creature Gastodon|TSS}",
+								"{@creature Kestodon|TSS}",
+								"{@creature Mosswine|TSS}",
+								"{@creature Moofah|TSS}"
 							]
 						}
 					]
@@ -521,9 +517,9 @@
 						{
 							"type": "list",
 							"items": [
-								"{@creature Remobra|MHMM}",
-								"{@creature Wingdrake|MHMM}",
-								"{@creature Najarala|MHMM}"
+								"{@creature Remobra|TSS}",
+								"{@creature Wingdrake|TSS}",
+								"{@creature Najarala|TSS}"
 							]
 						}
 					]
@@ -538,20 +534,20 @@
 						{
 							"type": "list",
 							"items": [
-								"{@creature Forest Gekko|MHMM}",
-								"{@creature Wildspire Gekko|MHMM}",
-								"{@creature Gloom Gekko|MHMM}",
-								"{@creature Moonlight Gekko|MHMM}",
-								"{@creature Dung Beetle|MHMM}",
-								"{@creature Bomb Beetle|MHMM}",
-								"{@creature Vigorwasp|MHMM}",
-								"{@creature Giant Vigorwasp|MHMM}",
-								"{@creature Nitrotoad|MHMM}",
-								"{@creature Paratoad|MHMM}",
-								"{@creature Sleeptoad|MHMM}",
-								"{@creature Wiggler|MHMM}",
-								"{@creature Iron Helmcrab|MHMM}",
-								"{@creature Soldier Helmcrab|MHMM}"
+								"{@creature Forest Gekko|TSS}",
+								"{@creature Wildspire Gekko|TSS}",
+								"{@creature Gloom Gekko|TSS}",
+								"{@creature Moonlight Gekko|TSS}",
+								"{@creature Dung Beetle|TSS}",
+								"{@creature Bomb Beetle|TSS}",
+								"{@creature Vigorwasp|TSS}",
+								"{@creature Giant Vigorwasp|TSS}",
+								"{@creature Nitrotoad|TSS}",
+								"{@creature Paratoad|TSS}",
+								"{@creature Sleeptoad|TSS}",
+								"{@creature Wiggler|TSS}",
+								"{@creature Iron Helmcrab|TSS}",
+								"{@creature Soldier Helmcrab|TSS}"
 							]
 						}
 					]
@@ -562,7 +558,7 @@
 	"condition": [
 		{
 			"name": "Slick",
-			"source": "mhmm",
+			"source": "TSS",
 			"entries": [
 				"A creature who is slick is covered in a slippery or slimy liquid. This liquid coats the body making it difficult to move or avoid attacks without slipping.",
 				{
@@ -578,7 +574,7 @@
 		},
 		{
 			"name": "Tarred",
-			"source": "mhmm",
+			"source": "TSS",
 			"entries": [
 				"A creature, object, or area who is tarred is covered in a dark brown or black viscous liquid. This liquid sticks to anything it touches and is highly flammable.",
 				{
@@ -596,7 +592,7 @@
 		},
 		{
 			"name": "Dragonblight",
-			"source": "mhmm",
+			"source": "TSS",
 			"entries": [
 				{
 					"type": "list",
@@ -609,7 +605,7 @@
 		},
 		{
 			"name": "Waterblight",
-			"source": "mhmm",
+			"source": "TSS",
 			"entries": [
 				{
 					"type": "homebrew",
@@ -628,7 +624,7 @@
 		},
 		{
 			"name": "Thunderblight",
-			"source": "mhmm",
+			"source": "TSS",
 			"entries": [
 				{
 					"type": "list",
@@ -660,13 +656,13 @@
 					]
 				}
 			],
-			"source": "mhmm"
+			"source": "TSS"
 		},
 		{
 			"name": "Frenzy Virus",
-			"source": "mhmm",
+			"source": "TSS",
 			"entries": [
-				"The Frenzy Virus is an infectious disease caused by the attacks and breath weapons of {@creature Gore Magala|MHMM} and {@creature Shagaru Magala|MHMM}, affecting both sentient races and monsters alike.",
+				"The Frenzy Virus is an infectious disease caused by the attacks and breath weapons of {@creature Gore Magala|TSS} and {@creature Shagaru Magala|TSS}, affecting both sentient races and monsters alike.",
 				{
 					"type": "entries",
 					"entries": [
@@ -839,7 +835,7 @@
 	"legendaryGroup": [
 		{
 			"name": "Raging Brachydios",
-			"source": "mhmm",
+			"source": "TSS",
 			"lairActions": [
 				"On initiative count 20 (losing initiative ties), the brachydios takes a lair action to cause one of the following effects; the brachydios can't use the same effect two rounds in a row:",
 				{
@@ -854,7 +850,7 @@
 		},
 		{
 			"name": "Teostra",
-			"source": "mhmm",
+			"source": "TSS",
 			"lairActions": [
 				"On initiative count 20 (losing initiative ties), the teostra takes a lair action to cause one of the following effects; the teostra can't use the same effect two rounds in a row:",
 				{
@@ -869,7 +865,7 @@
 		},
 		{
 			"name": "Chameleos",
-			"source": "mhmm",
+			"source": "TSS",
 			"lairActions": [
 				"On initiative count 20 (losing initiative ties), the chameleos takes a lair action to cause one of the following effects; the teostra can't use the same effect two rounds in a row:",
 				{
@@ -884,7 +880,7 @@
 		},
 		{
 			"name": "Shara Ishvalda",
-			"source": "mhmm",
+			"source": "TSS",
 			"lairActions": [
 				"On initiative count 20 (losing initiative ties), the shara ishvalda takes a lair action to cause one of the following effects:",
 				{
@@ -910,7 +906,7 @@
 		},
 		{
 			"name": "Fatalis",
-			"source": "mhmm",
+			"source": "TSS",
 			"lairActions": [
 				"On initiative count 20 (losing initiative ties), Fatalis takes a lair action to cause one of the following effects; Fatalis can't use the same effect two rounds in a row:",
 				{
@@ -946,7 +942,7 @@
 					"brute"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -1102,7 +1098,7 @@
 			"name": "Agnaktor",
 			"size": "H",
 			"type": "leviathan",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -1194,7 +1190,7 @@
 		},
 		{
 			"name": "Ahtal-Ka",
-			"source": "mhmm",
+			"source": "TSS",
 			"size": "H",
 			"type": {
 				"type": "beast",
@@ -1433,7 +1429,7 @@
 		},
 		{
 			"name": "Ahtal-Neset",
-			"source": "mhmm",
+			"source": "TSS",
 			"size": "G",
 			"type": "construct",
 			"alignment": [
@@ -1605,7 +1601,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -1790,7 +1786,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -1975,7 +1971,7 @@
 					"neopteron"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -2037,7 +2033,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -2231,7 +2227,7 @@
 					"unknown"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -2437,7 +2433,7 @@
 					"brute"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -2540,7 +2536,7 @@
 			"name": "Anteka",
 			"size": "M",
 			"type": "beast",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -2616,7 +2612,7 @@
 			"name": "Apceros",
 			"size": "L",
 			"type": "beast",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -2679,7 +2675,7 @@
 			"name": "Aptonoth",
 			"size": "L",
 			"type": "beast",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -2747,7 +2743,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -2926,7 +2922,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"C",
 				"E"
@@ -3077,7 +3073,7 @@
 				{
 					"name": "Water Globule",
 					"entries": [
-						"{@atk rw} {@hit 11} to hit, range 30/120 ft., one target. {@h}17 ({@damage 5d6}) cold damage and the target must succeed on a {@dc 21} Constitution saving throw, or become affected with {@disease waterblight|mhmm} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. On a hit or miss, the 5 foot area below the target is flooded."
+						"{@atk rw} {@hit 11} to hit, range 30/120 ft., one target. {@h}17 ({@damage 5d6}) cold damage and the target must succeed on a {@dc 21} Constitution saving throw, or become affected with {@disease waterblight|TSS} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. On a hit or miss, the 5 foot area below the target is flooded."
 					]
 				},
 				{
@@ -3125,7 +3121,7 @@
 				{
 					"name": "Water Beam (Costs 2 Actions)",
 					"entries": [
-						"The namielle exhales a torrent of water in an 90-foot cone, flooding the area. Each creature in that area must make a {@dc 22} Dexterity saving throw, taking 35 ({@damage 10d6}) cold damage and be affected with {@disease waterblight|mhmm} on a failed save, or half as much damage and not affected with {@disease waterblight|mhmm} on a successful one. The water then spreads out 15 feet across the ground in all directions, flooding the area."
+						"The namielle exhales a torrent of water in an 90-foot cone, flooding the area. Each creature in that area must make a {@dc 22} Dexterity saving throw, taking 35 ({@damage 10d6}) cold damage and be affected with {@disease waterblight|TSS} on a failed save, or half as much damage and not affected with {@disease waterblight|TSS} on a successful one. The water then spreads out 15 feet across the ground in all directions, flooding the area."
 					]
 				},
 				{
@@ -3149,7 +3145,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -3335,7 +3331,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -3432,7 +3428,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -3553,7 +3549,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -3648,7 +3644,7 @@
 					"brute"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -3768,7 +3764,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -3910,7 +3906,7 @@
 					"brute"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -4014,7 +4010,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -4143,7 +4139,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -4281,7 +4277,7 @@
 		},
 		{
 			"name": "Behemoth",
-			"source": "mhmm",
+			"source": "TSS",
 			"size": "G",
 			"type": {
 				"type": "beast",
@@ -4515,7 +4511,7 @@
 					"piscine"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -4561,7 +4557,7 @@
 				{
 					"name": "Frostblight",
 					"entries": [
-						"Whenever a creature takes cold damage from one of the beotodus attacks or is within 5 feet of the beotodus when it moves for the first time on its turn, it must make a {@dc 17} Constitution saving throw or become afflicted with {@disease Iceblight|mhmm} for 1 minute on a failed save. A creature that is resistant or immune to cold damage automatically succeeds on their saving throw."
+						"Whenever a creature takes cold damage from one of the beotodus attacks or is within 5 feet of the beotodus when it moves for the first time on its turn, it must make a {@dc 17} Constitution saving throw or become afflicted with {@disease Iceblight|TSS} for 1 minute on a failed save. A creature that is resistant or immune to cold damage automatically succeeds on their saving throw."
 					]
 				},
 				{
@@ -4573,7 +4569,7 @@
 				{
 					"name": "Snow Armor (3/day)",
 					"entries": [
-						"While in snowy terrain, the beotodus can use its bonus action to cover itself in a thick layer of snow. While covered in this snow, it gains a +2 bonus to its AC and it has resistance to bludgeoning damage. Additionally when a creature touches the beotodus or hits it with a melee attack while within 5 feet of it they must make a {@dc 17} Constitution saving throw or become afflicted with {@disease Iceblight|mhmm} until the end of their next turn.",
+						"While in snowy terrain, the beotodus can use its bonus action to cover itself in a thick layer of snow. While covered in this snow, it gains a +2 bonus to its AC and it has resistance to bludgeoning damage. Additionally when a creature touches the beotodus or hits it with a melee attack while within 5 feet of it they must make a {@dc 17} Constitution saving throw or become afflicted with {@disease Iceblight|TSS} until the end of their next turn.",
 						"Whenever the beotodus takes fire damage there is a 50% chance that the snow armor melts, reducing its AC bonus by 1. Once its bonus AC from this effect is reduced to 0, the effect ends."
 					]
 				},
@@ -4684,7 +4680,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"C",
 				"E"
@@ -4869,7 +4865,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -4951,7 +4947,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -5072,7 +5068,7 @@
 					"bird"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -5209,7 +5205,7 @@
 					"neopteron"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -5293,7 +5289,7 @@
 					"lynian"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"N"
 			],
@@ -5396,7 +5392,7 @@
 					"endemic life"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -5462,7 +5458,7 @@
 					"brute"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -5584,7 +5580,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -5766,7 +5762,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -5856,7 +5852,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -5944,7 +5940,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -6138,7 +6134,7 @@
 					"carapaceon"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -6233,7 +6229,7 @@
 					"piscine"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -6342,7 +6338,7 @@
 					"piscine"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -6442,7 +6438,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -6585,7 +6581,7 @@
 			},
 			"legendaryGroup": {
 				"name": "Chameleos",
-				"source": "mhmm"
+				"source": "TSS"
 			},
 			"tokenUrl": "https://i.imgur.com/ubtVXsh.png",
 			"damageTags": [
@@ -6617,7 +6613,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -6698,7 +6694,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -6807,7 +6803,7 @@
 					"bird"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -6865,13 +6861,13 @@
 				{
 					"name": "Water Glob",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}10 ({@damage 3d6}) cold damage and the target must succeed on a {@dc 15} Constitution saving throw, or become {@condition poisoned} with {@disease waterblight|mhmm} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}10 ({@damage 3d6}) cold damage and the target must succeed on a {@dc 15} Constitution saving throw, or become {@condition poisoned} with {@disease waterblight|TSS} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
 					"name": "Spiral Water Jet {@recharge}",
 					"entries": [
-						"The pukei-pukei flies 10 feet into the air and discharges a beam of high pressurized water from its tail that spirals out from below it out to a 45-foot radius. Each creature in that  area must make a {@dc 15} Constitution saving throw, or take 27 ({@damage 6d8}) cold damage and be {@condition poisoned} with {@disease waterblight|mhmm} for 1 minute on a failed save, or half as much damage and is not {@condition poisoned} on a successful one."
+						"The pukei-pukei flies 10 feet into the air and discharges a beam of high pressurized water from its tail that spirals out from below it out to a 45-foot radius. Each creature in that  area must make a {@dc 15} Constitution saving throw, or take 27 ({@damage 6d8}) cold damage and be {@condition poisoned} with {@disease waterblight|TSS} for 1 minute on a failed save, or half as much damage and is not {@condition poisoned} on a successful one."
 					]
 				}
 			],
@@ -6932,7 +6928,7 @@
 					"bird"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -7051,7 +7047,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -7233,7 +7229,7 @@
 					"carapaceon"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -7301,7 +7297,7 @@
 				{
 					"name": "Water Beam",
 					"entries": [
-						"{@atk rw} {@hit 8} to hit, reach 30/120 ft., one target. Hit 22 ({@damage 4d8 + 4}) cold damage. On a hit, the target must make a {@dc 16} Constitution saving throw or become {@condition poisoned} with {@disease waterblight|mhmm}."
+						"{@atk rw} {@hit 8} to hit, reach 30/120 ft., one target. Hit 22 ({@damage 4d8 + 4}) cold damage. On a hit, the target must make a {@dc 16} Constitution saving throw or become {@condition poisoned} with {@disease waterblight|TSS}."
 					]
 				},
 				{
@@ -7364,7 +7360,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -7561,7 +7557,7 @@
 					"piscine"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -7646,7 +7642,7 @@
 					"brute"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -7813,7 +7809,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -7965,7 +7961,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -8110,7 +8106,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -8212,7 +8208,7 @@
 					"endemic life"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -8275,7 +8271,7 @@
 					"brute"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -8381,7 +8377,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -8460,7 +8456,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage plus 7 ({@damage 2d6}) necrotic damage and the target must make a {@dc 16} Constitution saving throw or become afflicted with {@disease dragonblight|mhmm} for 1 minute."
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage plus 7 ({@damage 2d6}) necrotic damage and the target must make a {@dc 16} Constitution saving throw or become afflicted with {@disease dragonblight|TSS} for 1 minute."
 					]
 				},
 				{
@@ -8502,7 +8498,7 @@
 				{
 					"name": "Spit",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 20/60 ft., one target. {@h}4 ({@damage 1d8}) bludgeoning damage plus 4 ({@damage 1d8}) necrotic damage and the target must make a {@dc 16} Constitution saving throw or become afflicted with {@disease dragonblight|mhmm} for 1 minute."
+						"{@atk rw} {@hit 7} to hit, range 20/60 ft., one target. {@h}4 ({@damage 1d8}) bludgeoning damage plus 4 ({@damage 1d8}) necrotic damage and the target must make a {@dc 16} Constitution saving throw or become afflicted with {@disease dragonblight|TSS} for 1 minute."
 					]
 				},
 				{
@@ -8524,7 +8520,7 @@
 			"name": "Epioth",
 			"size": "L",
 			"type": "beast",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -8613,7 +8609,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"C",
 				"E"
@@ -8850,7 +8846,7 @@
 			},
 			"legendaryGroup": {
 				"name": "Fatalis",
-				"source": "mhmm"
+				"source": "TSS"
 			},
 			"tokenUrl": "https://i.imgur.com/TNq9RCc.png",
 			"damageTags": [
@@ -8884,7 +8880,7 @@
 					"lynian"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"C",
 				"G"
@@ -8976,7 +8972,7 @@
 					"endemic life"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -9035,7 +9031,7 @@
 					"brute"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -9203,7 +9199,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -9352,7 +9348,7 @@
 					{
 						"type": "entries",
 						"entries": [
-							"Considered to be a near myth, the furious rajang is a rare special {@creature rajang|MHMM} individual that is constantly enraged for unknown reasons. Its theorized by the guild that the furious rajang's power is unstable due to the lost of its tail and that its power potentially comes from its heart along with its nerves.",
+							"Considered to be a near myth, the furious rajang is a rare special {@creature rajang|TSS} individual that is constantly enraged for unknown reasons. Its theorized by the guild that the furious rajang's power is unstable due to the lost of its tail and that its power potentially comes from its heart along with its nerves.",
 							"Furious rajang has the same biological adaptations as a normal rajang but with some minor differences. Unlike normal rajang, their hair is always a golden in color. When enraged, furious rajang are surrounded by an aura of golden lightning. They are ultra aggressive just like rajang though are noticeably stronger, faster, and a lot more aggressive than rajang. Many hunters who hunt them never return."
 						]
 					}
@@ -9388,7 +9384,7 @@
 					"lynian"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"N"
 			],
@@ -9490,7 +9486,7 @@
 					"piscine"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -9568,7 +9564,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -9729,7 +9725,7 @@
 			"name": "Gargwa",
 			"size": "L",
 			"type": "beast",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -9783,7 +9779,7 @@
 			"name": "Gastodon",
 			"size": "M",
 			"type": "beast",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -9858,7 +9854,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -9963,7 +9959,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -10055,7 +10051,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -10167,7 +10163,7 @@
 					"endemic life"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -10219,7 +10215,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -10311,7 +10307,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -10401,7 +10397,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -10537,7 +10533,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -10640,7 +10636,7 @@
 					"brute"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -10746,7 +10742,7 @@
 					"endemic life"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -10800,7 +10796,7 @@
 			"name": "Gobul",
 			"size": "L",
 			"type": "leviathan",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -10980,7 +10976,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -11030,13 +11026,13 @@
 				{
 					"name": "Pitch",
 					"entries": [
-						"The gogmazios secretes tar from its body like sweat. Every 10 feet the gogmazios moves, it leaves tar in a unoccupied 5-foot area. Each creature in that enters the area or starts its turn in that area must make a {@dc 19} Strength saving throw, or become {@condition Tarred|mhmm}."
+						"The gogmazios secretes tar from its body like sweat. Every 10 feet the gogmazios moves, it leaves tar in a unoccupied 5-foot area. Each creature in that enters the area or starts its turn in that area must make a {@dc 19} Strength saving throw, or become {@condition Tarred|TSS}."
 					]
 				},
 				{
 					"name": "Combustible",
 					"entries": [
-						"A creature with the {@condition Tarred|mhmm} condition takes an additional 11 ({@damage 2d10}) fire damage if the {@condition Tarred|mhmm} condition ends from taking fire damage."
+						"A creature with the {@condition Tarred|TSS} condition takes an additional 11 ({@damage 2d10}) fire damage if the {@condition Tarred|TSS} condition ends from taking fire damage."
 					]
 				}
 			],
@@ -11056,7 +11052,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 15 ft., one target. Hit 24 ({@damage 4d8 + 6}) bludgeoning damage. and the target is {@condition Tarred|mhmm} (escape {@dc 20})."
+						"{@atk mw} {@hit 12} to hit, reach 15 ft., one target. Hit 24 ({@damage 4d8 + 6}) bludgeoning damage. and the target is {@condition Tarred|TSS} (escape {@dc 20})."
 					]
 				},
 				{
@@ -11080,7 +11076,7 @@
 				{
 					"name": "Oil Breath",
 					"entries": [
-						"The gogmazios exhales tar in a 90-foot cone. That area becomes {@condition Tarred|mhmm} for one hour. Each creature in that enters the area or starts its turn in that area must make a {@dc 20} Strength saving throw, or become {@condition Tarred}."
+						"The gogmazios exhales tar in a 90-foot cone. That area becomes {@condition Tarred|TSS} for one hour. Each creature in that enters the area or starts its turn in that area must make a {@dc 20} Strength saving throw, or become {@condition Tarred}."
 					]
 				}
 			],
@@ -11139,13 +11135,13 @@
 				"AOE"
 			],
 			"conditionInflicted": [
-				"Tarred|mhmm",
+				"Tarred|TSS",
 				"frightened",
 				"Tarred",
 				"prone"
 			],
 			"conditionInflict": [
-				"Tarred|mhmm",
+				"Tarred|TSS",
 				"frightened",
 				"Tarred",
 				"prone"
@@ -11160,7 +11156,7 @@
 					"unknown"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"C",
 				"E"
@@ -11337,7 +11333,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -11487,7 +11483,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -11598,7 +11594,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -11717,7 +11713,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -11820,7 +11816,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -11940,7 +11936,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -12034,7 +12030,7 @@
 					"neopteron"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -12110,7 +12106,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -12224,7 +12220,7 @@
 					"lynian"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"N"
 			],
@@ -12318,7 +12314,7 @@
 					"bird"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -12450,7 +12446,7 @@
 					"carapaceon"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -12501,7 +12497,7 @@
 				{
 					"name": "Water Beam",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, reach 30/120 ft., one target. Hit 6 ({@damage 1d8 + 2}) cold damage. On a hit, the target must make a {@dc 12} Constitution saving throw or become {@condition poisoned} with {@disease waterblight|mhmm}."
+						"{@atk rw} {@hit 4} to hit, reach 30/120 ft., one target. Hit 6 ({@damage 1d8 + 2}) cold damage. On a hit, the target must make a {@dc 12} Constitution saving throw or become {@condition poisoned} with {@disease waterblight|TSS}."
 					]
 				}
 			],
@@ -12552,7 +12548,7 @@
 					"neopteron"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -12629,7 +12625,7 @@
 					"bird"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -12734,7 +12730,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -12837,7 +12833,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -12924,7 +12920,7 @@
 					"endemic life"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -13004,7 +13000,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -13086,7 +13082,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -13181,7 +13177,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -13257,7 +13253,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -13446,7 +13442,7 @@
 					"piscine"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -13581,7 +13577,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -13639,7 +13635,7 @@
 				{
 					"name": "Mucus",
 					"entries": [
-						"{@atk rw} {@hit 8} to hit, range 30/120 ft., one target. {@h}10 ({@damage 3d6}) acid damage and the target is afflicted with {@disease waterblight|mhmm} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk rw} {@hit 8} to hit, range 30/120 ft., one target. {@h}10 ({@damage 3d6}) acid damage and the target is afflicted with {@disease waterblight|TSS} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -13690,7 +13686,7 @@
 			"name": "Kelbi",
 			"size": "M",
 			"type": "beast",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -13752,7 +13748,7 @@
 			"name": "Kestodon",
 			"size": "M",
 			"type": "beast",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -13830,7 +13826,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -13975,7 +13971,7 @@
 					"lynian"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"N"
 			],
@@ -14076,7 +14072,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -14299,7 +14295,7 @@
 					"neopteron"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -14389,7 +14385,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -14519,7 +14515,7 @@
 		},
 		{
 			"name": "Kulve Taroth",
-			"source": "mhmm",
+			"source": "TSS",
 			"size": "G",
 			"type": {
 				"type": "beast",
@@ -14737,7 +14733,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -14902,7 +14898,7 @@
 			"name": "Lagiacrus",
 			"size": "H",
 			"type": "leviathan",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -15046,7 +15042,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -15152,7 +15148,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -15351,7 +15347,7 @@
 			"name": "Larinoth",
 			"size": "H",
 			"type": "beast",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -15415,7 +15411,7 @@
 					"piscine"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -15558,7 +15554,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -15613,7 +15609,7 @@
 				{
 					"name": "Frost",
 					"entries": [
-						"A creature that starts its turn or moves into an area covered in frost must make a {@dc 18} Consitution saving throw or become afflicted with {@disease Iceblight|mhmm} for 1 minute."
+						"A creature that starts its turn or moves into an area covered in frost must make a {@dc 18} Consitution saving throw or become afflicted with {@disease Iceblight|TSS} for 1 minute."
 					]
 				},
 				{
@@ -15704,7 +15700,7 @@
 					"unknown"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -15885,7 +15881,7 @@
 			"name": "Ludroth",
 			"size": "M",
 			"type": "leviathan",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -15933,7 +15929,7 @@
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. Hit 6 ({@damage 1d6 + 3}) slashing damage. The target must make a {@dc 11} Constitution saving throw or become {@condition poisoned} with {@disease waterblight|mhmm}."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. Hit 6 ({@damage 1d6 + 3}) slashing damage. The target must make a {@dc 11} Constitution saving throw or become {@condition poisoned} with {@disease waterblight|TSS}."
 					]
 				}
 			],
@@ -15976,7 +15972,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -16153,7 +16149,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -16237,7 +16233,7 @@
 					"bird"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -16373,7 +16369,7 @@
 					"lynian"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"C",
 				"G"
@@ -16464,7 +16460,7 @@
 			"name": "Mizutsune",
 			"size": "H",
 			"type": "leviathan",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -16522,7 +16518,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. Hit 25 ({@damage 3d12 + 6}) bludgeoning damage. On hit, the creature is {@condition Slick|mhmm}."
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. Hit 25 ({@damage 3d12 + 6}) bludgeoning damage. On hit, the creature is {@condition Slick|TSS}."
 					]
 				},
 				{
@@ -16534,7 +16530,7 @@
 				{
 					"name": "Bubble Prison",
 					"entries": [
-						"{@atk rw} {@hit 10} to hit, range 80/320 ft., one Large or smaller creature. {@h}The creature is {@condition Slick|mhmm} and enclosed in a bubble of shimmering force for 1 minute or until the bubble is destroyed. Nothing, not physical Objects, energy, or other spell effects, can pass through the bubble, in or out, though a creature in the Sphere can breathe there. A creature inside of the bubble has disadvantage on attacks due to its slippery nature. The bubble has AC 15, 30 hit points, resistance to bludgeoning damage, immunity to poison and psychic damage, and vulnerable to piercing damage. At the end of the mizutsune's turn all bubbles rise 10 feet higher into the air."
+						"{@atk rw} {@hit 10} to hit, range 80/320 ft., one Large or smaller creature. {@h}The creature is {@condition Slick|TSS} and enclosed in a bubble of shimmering force for 1 minute or until the bubble is destroyed. Nothing, not physical Objects, energy, or other spell effects, can pass through the bubble, in or out, though a creature in the Sphere can breathe there. A creature inside of the bubble has disadvantage on attacks due to its slippery nature. The bubble has AC 15, 30 hit points, resistance to bludgeoning damage, immunity to poison and psychic damage, and vulnerable to piercing damage. At the end of the mizutsune's turn all bubbles rise 10 feet higher into the air."
 					]
 				},
 				{
@@ -16583,12 +16579,12 @@
 				"AOE"
 			],
 			"conditionInflicted": [
-				"Slick|mhmm",
+				"Slick|TSS",
 				"grappled",
 				"prone"
 			],
 			"conditionInflict": [
-				"Slick|mhmm",
+				"Slick|TSS",
 				"grappled",
 				"prone"
 			]
@@ -16602,7 +16598,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -16721,7 +16717,7 @@
 			"name": "Moofah",
 			"size": "S",
 			"type": "beast",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -16788,7 +16784,7 @@
 					"endemic life"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -16845,7 +16841,7 @@
 			"name": "Mosswine",
 			"size": "M",
 			"type": "beast",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -16912,7 +16908,7 @@
 					"snake"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -17071,7 +17067,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"C",
 				"E"
@@ -17314,7 +17310,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"C",
 				"E"
@@ -17435,7 +17431,7 @@
 				{
 					"name": "Water Globule",
 					"entries": [
-						"{@atk rw} {@hit 9} to hit, range 30/120 ft., one target. {@h}10 ({@damage 3d6}) cold damage and the target must succeed on a {@dc 17} Constitution saving throw, or become affected with {@disease waterblight|mhmm} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. On a hit or miss, the 5 foot area below the target is flooded."
+						"{@atk rw} {@hit 9} to hit, range 30/120 ft., one target. {@h}10 ({@damage 3d6}) cold damage and the target must succeed on a {@dc 17} Constitution saving throw, or become affected with {@disease waterblight|TSS} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. On a hit or miss, the 5 foot area below the target is flooded."
 					]
 				},
 				{
@@ -17483,7 +17479,7 @@
 				{
 					"name": "Water Beam (Costs 2 Actions)",
 					"entries": [
-						"The namielle exhales a torrent of water in an 60-foot cone, flooding the area. Each creature in that area must make a {@dc 18} Dexterity saving throw, taking 17 ({@damage 5d6}) cold damage and be affected with {@disease waterblight|mhmm} on a failed save, or half as much damage and not affected with {@disease waterblight|mhmm} on a successful one. The water then spreads out 15 feet across the ground in all directions, flooding the area. "
+						"The namielle exhales a torrent of water in an 60-foot cone, flooding the area. Each creature in that area must make a {@dc 18} Dexterity saving throw, taking 17 ({@damage 5d6}) cold damage and be affected with {@disease waterblight|TSS} on a failed save, or half as much damage and not affected with {@disease waterblight|TSS} on a successful one. The water then spreads out 15 feet across the ground in all directions, flooding the area. "
 					]
 				},
 				{
@@ -17516,7 +17512,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -17643,7 +17639,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"C",
 				"E"
@@ -17851,7 +17847,7 @@
 					"temnoceran"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -18005,7 +18001,7 @@
 			"name": "Nibelsnarf",
 			"size": "H",
 			"type": "leviathan",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -18121,7 +18117,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -18284,7 +18280,7 @@
 					"endemic life"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -18361,7 +18357,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -18485,7 +18481,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -18605,7 +18601,7 @@
 					"endemic life"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -18684,7 +18680,7 @@
 					"piscine"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -18807,7 +18803,7 @@
 			"name": "Popo",
 			"size": "L",
 			"type": "beast",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -18896,7 +18892,7 @@
 					"bird"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -19012,7 +19008,7 @@
 					"bird"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -19131,7 +19127,7 @@
 					"brute"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -19245,7 +19241,7 @@
 					"brute"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -19385,7 +19381,7 @@
 			},
 			"legendaryGroup": {
 				"name": "Raging Brachydios",
-				"source": "mhmm"
+				"source": "TSS"
 			},
 			"damageTags": [
 				"B",
@@ -19406,7 +19402,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -19556,7 +19552,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -19676,7 +19672,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -19796,7 +19792,7 @@
 					"snake"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -19869,7 +19865,7 @@
 			"name": "Rhenoplos",
 			"size": "M",
 			"type": "beast",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -19946,7 +19942,7 @@
 			"name": "Royal Ludroth",
 			"size": "L",
 			"type": "leviathan",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -19986,13 +19982,13 @@
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. Hit 11 ({@damage 2d6 + 4}) slashing damage. The target must make a {@dc 14} Constitution saving throw, or become {@condition poisoned} with {@disease waterblight|mhmm}. for 1 minute. The target can repeat the saving throw at the end of each of its turns, end the poison on a successful save."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. Hit 11 ({@damage 2d6 + 4}) slashing damage. The target must make a {@dc 14} Constitution saving throw, or become {@condition poisoned} with {@disease waterblight|TSS}. for 1 minute. The target can repeat the saving throw at the end of each of its turns, end the poison on a successful save."
 					]
 				},
 				{
 					"name": "Mucus Spit {@recharge 5}",
 					"entries": [
-						"The royal ludroth spits a glob of mucus at target creature, the target must make a {@dc 15} Dexterity saving throw, taking 35 ({@damage 10d6}) bludgeoning damage and becomes {@condition poisoned} with {@disease waterblight|mhmm} on a failed save, or half as much damage and is not {@condition poisoned} on a successful save. The target can repeat the saving throw at the end of each of its turns, end the poison on a successful save."
+						"The royal ludroth spits a glob of mucus at target creature, the target must make a {@dc 15} Dexterity saving throw, taking 35 ({@damage 10d6}) bludgeoning damage and becomes {@condition poisoned} with {@disease waterblight|TSS} on a failed save, or half as much damage and is not {@condition poisoned} on a successful save. The target can repeat the saving throw at the end of each of its turns, end the poison on a successful save."
 					]
 				}
 			],
@@ -20033,7 +20029,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"C",
 				"E"
@@ -20241,7 +20237,7 @@
 			"name": "Safi'jiiva",
 			"size": "G",
 			"type": "dragon",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"N"
 			],
@@ -20452,7 +20448,7 @@
 					"brute"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -20567,7 +20563,7 @@
 				{
 					"name": "Dragons Breath {@recharge 5}",
 					"entries": [
-						"The deviljho unleashes a terrible breath in a 60-foot cone. Each Creature in that area must make a {@dc 18} Dexterity saving throw, taking 31 ({@damage 7d8}) fire damage and 49 ({@damage 11d8}) necrotic damage and they are afflicted with {@disease dragonblight|mhmm} for 1 minute on a failed save, or half as much damage and are not afflicted with {@disease dragonblight|mhmm} on a successful one. The afflicted target can repeat the saving throw on each of its turns, ending the effect on itself on a success."
+						"The deviljho unleashes a terrible breath in a 60-foot cone. Each Creature in that area must make a {@dc 18} Dexterity saving throw, taking 31 ({@damage 7d8}) fire damage and 49 ({@damage 11d8}) necrotic damage and they are afflicted with {@disease dragonblight|TSS} for 1 minute on a failed save, or half as much damage and are not afflicted with {@disease dragonblight|TSS} on a successful one. The afflicted target can repeat the saving throw on each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -20636,7 +20632,7 @@
 					"bird"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -20795,7 +20791,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -20964,7 +20960,7 @@
 					"neopteron"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -21048,7 +21044,7 @@
 					"neopteron"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -21158,7 +21154,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -21280,7 +21276,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"C",
 				"E"
@@ -21461,7 +21457,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -21685,7 +21681,7 @@
 					"lynian"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"N"
 			],
@@ -21777,7 +21773,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -21865,7 +21861,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -22055,7 +22051,7 @@
 			},
 			"legendaryGroup": {
 				"name": "Shara Ishvalda",
-				"source": "mhmm"
+				"source": "TSS"
 			},
 			"group": "Elder Dragons",
 			"conditionInflicted": [
@@ -22080,7 +22076,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -22281,7 +22277,7 @@
 			},
 			"legendaryGroup": {
 				"name": "Shara Ishvalda",
-				"source": "mhmm"
+				"source": "TSS"
 			},
 			"group": "Elder Dragons",
 			"conditionInflicted": [
@@ -22300,7 +22296,7 @@
 					"carapaceon"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -22524,7 +22520,7 @@
 					"carapaceon"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -22675,7 +22671,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -22842,7 +22838,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -23007,7 +23003,7 @@
 			"name": "Slagtoth",
 			"size": "L",
 			"type": "beast",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -23085,7 +23081,7 @@
 					"endemic life"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -23164,7 +23160,7 @@
 					"endemic life"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -23244,7 +23240,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -23388,13 +23384,13 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 19} to hit, reach 15 ft., one target. Hit 28 ({@damage 4d8 + 10}) piercing damage plus 3 ({@damage 1d6}) necrotic damage and the target must make a {@dc 27} Constitution saving throw or be afflicted with {@condition dragonblight|MHMM} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the dragonblight on itself on a success."
+						"{@atk mw} {@hit 19} to hit, reach 15 ft., one target. Hit 28 ({@damage 4d8 + 10}) piercing damage plus 3 ({@damage 1d6}) necrotic damage and the target must make a {@dc 27} Constitution saving throw or be afflicted with {@condition dragonblight|TSS} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the dragonblight on itself on a success."
 					]
 				},
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. Hit 17 ({@damage 2d6 + 10}) slashing damage plus 3 ({@damage 1d6}) necrotic damage and the target must make a {@dc 27} Constitution saving throw or be afflicted with {@condition dragonblight|MHMM} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the dragonblight on itself on a success."
+						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. Hit 17 ({@damage 2d6 + 10}) slashing damage plus 3 ({@damage 1d6}) necrotic damage and the target must make a {@dc 27} Constitution saving throw or be afflicted with {@condition dragonblight|TSS} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the dragonblight on itself on a success."
 					]
 				},
 				{
@@ -23434,21 +23430,21 @@
 				{
 					"name": "Water Breath",
 					"entries": [
-						"The alatreon fires 5 water globules, each at a different point within a 150-foot cone in front of it. Each creature within a 5-foot radius of a point must make a {@dc 27} Dexterity saving throw or take 14 ({@damage 4d6}) cold damage and be afflicted with {@condition waterblight|MHMM} for 1 minute on a failed save, or half as much damage and is not afflicted with waterblight on a successful one.",
+						"The alatreon fires 5 water globules, each at a different point within a 150-foot cone in front of it. Each creature within a 5-foot radius of a point must make a {@dc 27} Dexterity saving throw or take 14 ({@damage 4d6}) cold damage and be afflicted with {@condition waterblight|TSS} for 1 minute on a failed save, or half as much damage and is not afflicted with waterblight on a successful one.",
 						"A creature in the area of more than one globule, makes their saving throw at disadvantage, but does not take any additional damage. A creature can repeat the saving throw at the end of each of its turns, ending the waterblight on itself on a success."
 					]
 				},
 				{
 					"name": "Arc Lightning",
 					"entries": [
-						"The alatreon magically causes lightning to strike, within 120 feet of it, along a 45-foot long line, that is 5 feet wide. It then causes lightning to strike along another 45-foot long, 5-foot-wide line, but this line must begin in a 5-foot space of the original lightning strikes or pass through it at one point in the line. Each creature in a line, must make a {@dc 27} Dexterity saving throw or take 22 ({@damage 5d8}) lightning damage and be afflicted with {@condition thunderblight|MHMM} for 1 minute on a failed save, or half as much damage and is not afflicted with thunderblight on a successful one.",
+						"The alatreon magically causes lightning to strike, within 120 feet of it, along a 45-foot long line, that is 5 feet wide. It then causes lightning to strike along another 45-foot long, 5-foot-wide line, but this line must begin in a 5-foot space of the original lightning strikes or pass through it at one point in the line. Each creature in a line, must make a {@dc 27} Dexterity saving throw or take 22 ({@damage 5d8}) lightning damage and be afflicted with {@condition thunderblight|TSS} for 1 minute on a failed save, or half as much damage and is not afflicted with thunderblight on a successful one.",
 						"A creature in the area of more than one line, makes their saving throw at disadvantage, but does not take any additional damage. A creature can repeat the saving throw at the end of each of its turns, ending the thunderblight on itself on a success."
 					]
 				},
 				{
 					"name": "Lightning Storm",
 					"entries": [
-						"Numerous bolts of lightning strike the ground in a 120-foot radius around the alatreon. Choose three creatures, each of which must make a {@dc 27} Dexterity saving throw, taking 22 ({@damage 4d10}) lightning damage and be afflicted with {@condition thunderblight|MHMM} for 1 minute on a failed save, or half as much damage and is not afflicted with thunderblight on a successful one. A creature can repeat the saving throw at the end of each of its turns, ending the thunderblight on itself on a success."
+						"Numerous bolts of lightning strike the ground in a 120-foot radius around the alatreon. Choose three creatures, each of which must make a {@dc 27} Dexterity saving throw, taking 22 ({@damage 4d10}) lightning damage and be afflicted with {@condition thunderblight|TSS} for 1 minute on a failed save, or half as much damage and is not afflicted with thunderblight on a successful one. A creature can repeat the saving throw at the end of each of its turns, ending the thunderblight on itself on a success."
 					]
 				}
 			],
@@ -23524,7 +23520,7 @@
 									"type": "entries",
 									"name": "Frost Breath",
 									"entries": [
-										"The alatreon rises 30 feet into the air, without provoking opportunity attacks, and exhales frost that covers the ground in a 30-foot radius centered on a point directly below it. The frost remains until the start of the alatreon's next turn and Each creature that starts its turn in that area must make a {@dc 27} Constitution saving throw or take 17 ({@damage 5d6}) cold damage and be afflicted with {@condition iceblight|MHMM} for 1 minute on a failed save, or half as much damage and is not afflicted with iceblight on a successful one. When a creature moves into or within the area, it takes 7 ({@damage 2d6}) cold damage for every 5 feet it travels."
+										"The alatreon rises 30 feet into the air, without provoking opportunity attacks, and exhales frost that covers the ground in a 30-foot radius centered on a point directly below it. The frost remains until the start of the alatreon's next turn and Each creature that starts its turn in that area must make a {@dc 27} Constitution saving throw or take 17 ({@damage 5d6}) cold damage and be afflicted with {@condition iceblight|TSS} for 1 minute on a failed save, or half as much damage and is not afflicted with iceblight on a successful one. When a creature moves into or within the area, it takes 7 ({@damage 2d6}) cold damage for every 5 feet it travels."
 									]
 								},
 								{
@@ -23603,7 +23599,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -23780,7 +23776,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"C",
 				"E"
@@ -24001,7 +23997,7 @@
 			},
 			"legendaryGroup": {
 				"name": "Fatalis",
-				"source": "mhmm"
+				"source": "TSS"
 			},
 			"tokenUrl": "https://i.imgur.com/TNq9RCc.png",
 			"damageTags": [
@@ -24028,7 +24024,7 @@
 		},
 		{
 			"name": "Tempered Lunastra",
-			"source": "mhmm",
+			"source": "TSS",
 			"size": "H",
 			"type": {
 				"type": "dragon",
@@ -24230,7 +24226,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"C",
 				"E"
@@ -24370,7 +24366,7 @@
 				{
 					"name": "Water Globule",
 					"entries": [
-						"{@atk rw} {@hit 9} to hit, range 30/120 ft., one target. {@h}14 ({@damage 4d6}) cold damage and the target must succeed on a {@dc 19} Constitution saving throw, or become affected with {@disease waterblight|mhmm} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. On a hit or miss, the 5 foot area below the target is flooded."
+						"{@atk rw} {@hit 9} to hit, range 30/120 ft., one target. {@h}14 ({@damage 4d6}) cold damage and the target must succeed on a {@dc 19} Constitution saving throw, or become affected with {@disease waterblight|TSS} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. On a hit or miss, the 5 foot area below the target is flooded."
 					]
 				},
 				{
@@ -24418,7 +24414,7 @@
 				{
 					"name": "Water Beam (Costs 2 Actions)",
 					"entries": [
-						"The namielle exhales a torrent of water in an 90-foot cone, flooding the area. Each creature in that area must make a {@dc 20} Dexterity saving throw, taking 17 ({@damage 5d6}) cold damage and be affected with {@disease waterblight|mhmm} on a failed save, or half as much damage and not affected with {@disease waterblight|mhmm} on a successful one. The water then spreads out 15 feet across the ground in all directions, flooding the area. "
+						"The namielle exhales a torrent of water in an 90-foot cone, flooding the area. Each creature in that area must make a {@dc 20} Dexterity saving throw, taking 17 ({@damage 5d6}) cold damage and be affected with {@disease waterblight|TSS} on a failed save, or half as much damage and not affected with {@disease waterblight|TSS} on a successful one. The water then spreads out 15 feet across the ground in all directions, flooding the area. "
 					]
 				},
 				{
@@ -24442,7 +24438,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -24641,7 +24637,7 @@
 			},
 			"legendaryGroup": {
 				"name": "Teostra",
-				"source": "mhmm"
+				"source": "TSS"
 			},
 			"group": "Elder Dragons",
 			"conditionInflicted": [
@@ -24660,7 +24656,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -24845,7 +24841,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -25009,7 +25005,7 @@
 			},
 			"legendaryGroup": {
 				"name": "Teostra",
-				"source": "mhmm"
+				"source": "TSS"
 			},
 			"tokenUrl": "https://i.imgur.com/ZDw1XOJ.png",
 			"damageTags": [
@@ -25041,7 +25037,7 @@
 					"amphibian"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -25144,7 +25140,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -25289,7 +25285,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -25403,7 +25399,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -25541,7 +25537,7 @@
 					"flying"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -25741,7 +25737,7 @@
 					"brute"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -25839,7 +25835,7 @@
 			"name": "Uroktor",
 			"size": "M",
 			"type": "leviathan",
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -25916,7 +25912,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"C",
 				"E"
@@ -26104,7 +26100,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -26252,7 +26248,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -26418,7 +26414,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -26520,7 +26516,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -26602,7 +26598,7 @@
 					"neopteron"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -26684,7 +26680,7 @@
 					"neopteron"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -26775,7 +26771,7 @@
 					"endemic life"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -26827,7 +26823,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -26952,7 +26948,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -27056,7 +27052,7 @@
 					"endemic life"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -27122,7 +27118,7 @@
 					"lynian"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -27224,7 +27220,7 @@
 					"endemic life"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -27283,7 +27279,7 @@
 					"snake"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -27360,7 +27356,7 @@
 					"theropod"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -27455,7 +27451,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -27547,7 +27543,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -27755,7 +27751,7 @@
 					"elder"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -27950,7 +27946,7 @@
 					"bird"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -28076,7 +28072,7 @@
 					"bird"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -28192,7 +28188,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -28281,7 +28277,7 @@
 					"amphibian"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -28371,7 +28367,7 @@
 					"amphibian"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
@@ -28499,7 +28495,7 @@
 					"fanged"
 				]
 			},
-			"source": "mhmm",
+			"source": "TSS",
 			"alignment": [
 				"U"
 			],
