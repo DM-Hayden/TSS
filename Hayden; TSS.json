@@ -6918,7 +6918,7 @@
 			"conditionInflict": [
 				"poisoned"
 			],
-			"tokenUrl":"https://i.imgur.com/OsTl39F.png"
+			"tokenUrl":"https://i.imgur.com/iIF69j4.png"
 		},
 		{
 			"name": "Crimson Qurupeco",
@@ -11926,7 +11926,8 @@
 				"restrained",
 				"blinded",
 				"prone"
-			]
+			],
+			"tokenUrl":"https://i.imgur.com/S3HIXF6.png"
 		},
 		{
 			"name": "Great Maccao",
@@ -14512,7 +14513,8 @@
 			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"tokenUrl":"https://i.imgur.com/OfoVRkH.png"
 		},
 		{
 			"name": "Kulve Taroth",
