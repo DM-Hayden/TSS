@@ -28599,6 +28599,238 @@
 				"MW",
 				"RCH"
 			]
+		},
+		{
+			"name": "Twilight Phoenix",
+			"source": "TSS",
+			"page": 0,
+			"size": "G",
+			"type": "elemental",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				18
+			],
+			"hp": {
+				"average": 175,
+				"formula": "10d20 + 70"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 120
+			},
+			"str": 19,
+			"dex": 26,
+			"con": 25,
+			"int": 2,
+			"wis": 21,
+			"cha": 18,
+			"save": {
+				"wis": "+10",
+				"cha": "+9"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 15,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"stunned"
+			],
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Necrotizing Death and Rebirth",
+					"entries": [
+						"When the Twilight Phoenix dies, it explodes with necrotizing parasites. Each creature within 60-feet of it must make a {@dc 20} Dexterity saving throw, taking 22 ({@damage 4d10}) necrotic damage on a failed save, or half as much damage on a successful one.",
+						"The explosion destroys the phoenix's body and leaves behind an egg-shaped cinder that weighs 5 pounds. The cinder radiates shadow energy feeling ice cold to the touch, dealing 21 ({@damage 6d6}) necrotic damage to any creature that touches it, though no more than once per round. The cinder is immune to all damage, and after {@dice 1d6} days, it hatches a new phoenix."
+					]
+				},
+				{
+					"name": "Shadow Form",
+					"entries": [
+						"The phoenix can move through a space as narrow as 1 inch wide without squeezing. Any creature that touches the phoenix or hits it with a melee attack while within 5 feet of it takes 5 ({@damage 1d10}) necrotic damage. In addition, the phoenix can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 ({@damage 1d10}) necrotic damage."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"The phoenix doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Twilight Light",
+					"entries": [
+						"The twilight phoenix dims all light in a 60-foot radius."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the phoenix fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"The phoenix deals double damage to objects and structures."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The phoenix makes two attacks: one with its beak and one with its fiery talons."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}15 ({@damage 2d6 + 8}) necrotic damage. If the target is a creature, it is covered in necrotizing slime/muck/gunk. Until a creature takes an action to remove the slime/muck/gunk, the target takes 5 ({@damage 1d10}) necrotic damage at the start of each of its turns."
+					]
+				},
+				{
+					"name": "Necro Talons",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}17 ({@damage 2d8 + 8}) necrotic damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Peck",
+					"entries": [
+						"The phoenix makes one beak attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The phoenix moves up to its speed."
+					]
+				},
+				{
+					"name": "Swoop (Costs 2 Actions)",
+					"entries": [
+						"The phoenix moves up to its speed and attacks with its necro talons."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"mountain"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/phoenix.mp3?v=1.130.2"
+			},
+			"traitTags": [
+				"Flyby",
+				"Illumination",
+				"Legendary Resistances",
+				"Siege Monster"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"F"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://i.imgur.com/O5r5k6t.png",
+			"fluff": {
+				"name": "Phoenix",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"To rise like a phoenix from the ashes—so many use that quaint colloquialism. Little do they know about the true horror of such a rebirth."
+										],
+										"by": "Mordenkainen"
+									},
+									{
+										"type": "entries",
+										"name": "Phoenix",
+										"entries": [
+											"Releasing a phoenix from the Inner Planes creates an explosion of fire that spreads across the sky. An enormous fiery bird forms in the center of the flames and smoke—an elder elemental possessed by a need to burn everything to ash. The phoenix rarely stays in one place for long as it strives to transform the world into an inferno."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Elder Elementals",
+										"entries": [
+											"On their native planes, elementals sweep across the weird and tempestuous landscape. Some possess greater power, gained by feeding on their lesser kin and adding the essence of creatures they have devoured to their own until they become something extraordinary. When summoned, these elder elementals manifest as beings of apocalyptic capability, entities whose mere existence promises destruction."
+										]
+									},
+									{
+										"name": "Deadly When Summoned",
+										"type": "entries",
+										"entries": [
+											"The methods for summoning elder elementals remain hidden in forbidden tomes or inscribed on the walls of lost temples raised to honor the Elder Elemental Eye. Only casters of superlative skill have even the faintest chance of calling forth one of these monsters, and the spellcaster is often destroyed by the effort. Thus, only the most unhinged and nihilistic members of Elemental Evil cults attempt such a summoning, in the hope of hastening the world toward some cataclysmic end."
+										]
+									},
+									{
+										"name": "Elemental Nature",
+										"type": "entries",
+										"entries": [
+											"An elder elemental doesn't require air, food, drink, or sleep."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Phoenix.jpg"
+						}
+					}
+				]
+			}
 		}
 	]
 }
