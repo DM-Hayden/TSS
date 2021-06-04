@@ -80,6 +80,9 @@
 				},
 				{
 					"name": "Endemic Life"
+				},
+				{
+					"name": "Twilight Life"
 				}
 			]
 		}
@@ -548,6 +551,21 @@
 								"{@creature Wiggler|TSS}",
 								"{@creature Iron Helmcrab|TSS}",
 								"{@creature Soldier Helmcrab|TSS}"
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Twilight Life",
+					"page": "0",
+					"entries": [
+						"New Monsters Added to TSS.",
+						{
+							"type": "list",
+							"items": [
+								"{@creature Twilight Phoenix|TSS}",								
+								"{@creature asdf|TSS}"
 							]
 						}
 					]
@@ -28762,7 +28780,7 @@
 				"Multiattack"
 			],
 			"damageTags": [
-				"F"
+				"N"
 			],
 			"miscTags": [
 				"MW",
