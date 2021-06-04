@@ -558,14 +558,16 @@
 				{
 					"type": "section",
 					"name": "Twilight Life",
-					"page": "0",
+					"page": "999",
 					"entries": [
 						"New Monsters Added to TSS.",
 						{
 							"type": "list",
 							"items": [
-								"{@creature Twilight Phoenix|TSS}",								
-								"{@creature asdf|TSS}"
+								"{@creature Great Wroggi|TSS}",								
+								"{@creature Teostra|TSS}",
+								"{@creature Zamtrios|TSS}",
+								"{@creature Twilight Phoenix|TSS}"
 							]
 						}
 					]
@@ -28622,7 +28624,7 @@
 		{
 			"name": "Twilight Phoenix",
 			"source": "TSS",
-			"page": 0,
+			"page": 999,
 			"size": "G",
 			"type": "elemental",
 			"alignment": [
