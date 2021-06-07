@@ -28999,79 +28999,49 @@
 			],
 			"trait": [
 				{
-					"name": "Special Equipment",
-					"entries": [
-						"Acererak carries the {@item Staff of the Forgotten One|ToA}. He wears a {@item Talisman of the Sphere} and has a {@item Sphere of Annihilation} under his control."
-					]
-				},
-				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If Acererak fails a saving throw, he can choose to succeed instead."
-					]
-				},
-				{
-					"name": "Rejuvenation",
-					"entries": [
-						"Acererak's body turns to dust when he drops to 0 hit points, and his equipment is left behind. Acererak gains a new body after {@dice 1d10} days, regaining all his hit points and becoming active again. The new body appears within 5 feet of Acererak's phylactery, the location of which is hidden."
-					]
-				},
-				{
-					"name": "Turn Resistance",
-					"entries": [
-						"Acererak has advantage on saving throws against any effect that turns undead."
+						"If Ganondorf fails a saving throw, he can choose to succeed instead."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Paralyzing Touch",
+					"name": "Multiattack",
 					"entries": [
-						"{@atk ms} {@hit 15} to hit, reach 5 ft., one creature. {@h}10 ({@damage 3d6}) cold damage, and the target must succeed on a {@dc 20} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Ganondorf makes two greatsword attacks."
 					]
 				},
 				{
-					"name": "Staff (+3 Quarterstaff)",
+					"name": "Greatsword",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage plus 10 ({@damage 3d6}) necrotic damage, or 8 ({@damage 1d8 + 4}) bludgeoning damage plus 10 ({@damage 3d6}) necrotic damage when used with two hands."
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage plus 12 ({@damage 2d6 + 5}) necrotic damage."
 					]
 				},
 				{
-					"name": "Invoke Curse",
+					"name": "Orb of Force",
 					"entries": [
-						"While holding the Staff of the Forgotten One, Acererak expends 1 charge from it and targets one creature he can see within 60 feet of him. The target must succeed on a {@dc 23} Constitution saving throw or be cursed. Until the curse is ended, the target can't regain hit points and has vulnerability to necrotic damage. {@spell Greater restoration}, {@spell remove curse}, or similar magic ends the curse on the target."
+						"{@atk mw} {@hit 7} to hit, range 100 ft., one target. {@h}32 ({@damage 8d6 + 4} force damage and the target may make a DC 16 Dexterity saving throw if armed with a melee weapon. On a successful save, the target takes no damage, and the orb is reflected back at Ganondorf who then may make a DC 18 Dexterity saving throw to reflect the orb back towards the target. This continues, adding 2 to the saving throw DC on each success, until either Ganondorf or the target fails the saving throw. On a failed save, either Ganondorf or the target takes the damage."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "At-Will Spell",
+					"name": "Summon Allies",
 					"entries": [
-						"Acererak casts one of his at-will spells."
+						"Roll 1d20 and Ganondorf summons any creature(s) from the Wizzrobe summon table (Legend of Zelda Monster Manual p. 63). This action cannot be used again until all creatures summoned this way have been killed."
 					]
 				},
 				{
-					"name": "Melee Attack",
+					"name": "Multi-Orb of Force. (Costs 2 Actions)",
 					"entries": [
-						"Acererak uses Paralyzing Touch or makes one melee attack with his staff."
+						"Ganon casts Orb of Force on all targets within range. The saving throw to reflect the orb is a DC 20 Dexterity saving throw for each target. On a failed save, the target takes the damage, but Ganon does not have the opportunity to reflect the Orb on a succesful one."
 					]
 				},
 				{
-					"name": "Frightening Gaze (Costs 2 Actions)",
+					"name": "Transformation",
 					"entries": [
-						"Acererak fixes his gaze on one creature he can see within 10 feet of him. The target must succeed on a {@dc 20} Wisdom saving throw against this magic or become {@condition frightened} for 1 minute. The {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target its immune to Acererak's gaze for the next 24 hours."
-					]
-				},
-				{
-					"name": "Talisman of the Sphere (Costs 2 Actions)",
-					"entries": [
-						"Acererak uses his {@item Talisman of the Sphere} to move the {@item Sphere of Annihilation} under his control up to 90 feet."
-					]
-				},
-				{
-					"name": "Disrupt Life (Costs 3 Actions)",
-					"entries": [
-						"Each creature within 20 feet of Acererak must make a {@dc 20} Constitution saving throw against this magic, taking 42 ({@damage 12d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+						"If Ganondorf ends a turn with fewer than 15 hit points, he can transform into Ganon, King of Evil. He regains all lost hit points, legendary actions, and spell slots, and any condition effects are ended."
 					]
 				}
 			],
@@ -29085,14 +29055,7 @@
 			],
 			"languageTags": [
 				"AB",
-				"C",
-				"D",
-				"DR",
-				"E",
-				"GI",
-				"I",
-				"P",
-				"U"
+				"C"
 			],
 			"damageTags": [
 				"B",
@@ -29114,67 +29077,7 @@
 				"paralyzed",
 				"poisoned"
 			],
-			"hasFluff": true,
-			"hasFluffImages": true,
-			"tokenUrl": "https://5e.tools/img/ToA/Acererak.png?v=1.130.3",
-			"fluff": {
-				"name": "Acererak",
-				"source": "ToA",
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"type": "entries",
-										"entries": [
-											"Acererak is an archlich who travels between worlds and is known to take sick pleasure in devouring the souls of adventurers, whom he lures into trap-ridden dungeons where they suffer horrible deaths. One such dungeon lies under the lost city of Omu. This dungeon is called the Tomb of the Nine Gods, for Acererak slew nine false gods and sealed them within it. More recently, he built a necromantic device called the Soulmonger, then hid it in the heart of the tomb."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Acererak's Traits",
-										"entries": [
-											{
-												"name": "Ideal",
-												"type": "entries",
-												"entries": [
-													"\"Why be a god when I can be a creator of gods?\""
-												]
-											},
-											{
-												"name": "Bond",
-												"type": "entries",
-												"entries": [
-													"\"I build dungeons to trap and slay powerful adventurers. Their deaths and souls are my nourishment.\""
-												]
-											},
-											{
-												"name": "Flaw",
-												"type": "entries",
-												"entries": [
-													"\"I underestimate the resolve of my enemies.\""
-												]
-											}
-										]
-									}
-								]
-							}
-						]
-					}
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/ToA/Acererak.jpg"
-						}
-					}
-				]
-			}
+			"tokenUrl": "https://i.imgur.com/1w10ESs.png"
 		}
 	]
 }
