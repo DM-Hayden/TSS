@@ -29021,7 +29021,7 @@
 				{
 					"name": "Orb of Force",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, range 100 ft., one target. {@h}32 ({@damage 8d6 + 4} force damage and the target may make a DC 16 Dexterity saving throw if armed with a melee weapon. On a successful save, the target takes no damage, and the orb is reflected back at Ganondorf who then may make a DC 18 Dexterity saving throw to reflect the orb back towards the target. This continues, adding 2 to the saving throw DC on each success, until either Ganondorf or the target fails the saving throw. On a failed save, either Ganondorf or the target takes the damage."
+						"{@atk rs} {@hit 7} to hit, range 100 ft., one target. {@h}32 ({@damage 8d6 + 4} force damage and the target may make a DC 16 Dexterity saving throw if armed with a melee weapon. On a successful save, the target takes no damage, and the orb is reflected back at Ganondorf who then may make a DC 18 Dexterity saving throw to reflect the orb back towards the target. This continues, adding 2 to the saving throw DC on each success, until either Ganondorf or the target fails the saving throw. On a failed save, either Ganondorf or the target takes the damage."
 					]
 				}
 			],
