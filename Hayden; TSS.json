@@ -28933,38 +28933,47 @@
 						},
 						"2": {
 							"spells": [
-								"{@spell arcane lock}",
-								"{@spell knock}"
+								"{@spell crown of madness}",
+								"{@spell darkness}",
+								"{@spell detect thoughts}",
+								"{@spell levitate}",
+								"{@spell mirror image}"
 							]
 						},
 						"3": {
 							"spells": [
 								"{@spell animate dead}",
-								"{@spell counterspell}"
+								"{@spell counterspell}",
+								"{@spell hypnotic pattern}",
+								"{@spell dispel magic}",
+								"{@spell major image}",
+								"{@spell slow}"								
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
+								"{@spell arcane eye}",
+								"{@spell banishment}",
 								"{@spell blight}",
-								"{@spell ice storm}",
-								"{@spell phantasmal killer}"
+								"{@spell dimension door}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell cloudkill}",
-								"{@spell hold monster}",
-								"{@spell wall of force}"
+								"{@spell animate objects}",
+								"{@spell dominate person}",
+								"{@spell scrying}"
 							]
 						},
 						"6": {
 							"slots": 3,
 							"spells": [
-								"{@spell chain lightning}",
-								"{@spell circle of death}",
-								"{@spell disintegrate}"
+								"{@spell arcane gate}",
+								"{@spell disintegrate}",
+								"{@spell mass suggestion}",
+								"{@spell programmed illusion}"
 							]
 						},
 						"7": {
@@ -28972,25 +28981,19 @@
 							"spells": [
 								"{@spell finger of death}",
 								"{@spell plane shift}",
-								"{@spell teleport}"
+								"{@spell symbol}"
 							]
 						},
 						"8": {
 							"slots": 2,
 							"spells": [
-								"{@spell maze}",
-								"{@spell mind blank}"
-							]
-						},
-						"9": {
-							"slots": 2,
-							"spells": [
-								"{@spell power word kill}",
-								"{@spell time stop}"
+								"{@spell dominate monster}",
+								"{@spell power word stun}",
+								"{@spell telepathy}"
 							]
 						}
 					},
-					"ability": "int",
+					"ability": "cha",
 					"type": "spellcasting"
 				}
 			],
