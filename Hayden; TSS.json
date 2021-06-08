@@ -29222,7 +29222,7 @@
 				{
 					"name": "Great Trident",
 					"entries": [
-						"{@atk mrw} {@hit 8} to hit, reach 10 ft. of range 40/80 ft., one target. {@h}12 ({@damage 3d6 + 1} piercing damage."
+						"{@atk mrw} {@hit 8} to hit, reach 10 ft. of range 40/80 ft., one target. {@h}12 ({@damage 3d6 + 1}) piercing damage."
 					]
 				}
 			],
