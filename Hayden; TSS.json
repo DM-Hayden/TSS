@@ -29166,13 +29166,13 @@
 							"slots": 2,
 							"spells": [
 								"{@spell banishment}",
-								"{@spell stagering smite}"
+								"{@spell staggering smite}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell destructive wave (thunder)}"
+								"{@spell destructive wave} (thunder)"
 							]
 						}
 					},
