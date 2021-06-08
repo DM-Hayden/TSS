@@ -29126,6 +29126,9 @@
 				"charmed",
 				"frightened"
 			],
+			"vulnerable": [
+				"radiant"
+			],
 			"languages": [
 				"understands common and abyssal but cannot speak"
 			],
