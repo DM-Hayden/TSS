@@ -29319,23 +29319,23 @@
 			"wis": 18,
 			"cha": 24,
 			"save": {
-				"dex": "+8",
-				"con": "+17",
+				"dex": "+9",
+				"con": "+16",
 				"wis": "+11",
 				"cha": "+14"
 			},
 			"skill": {
-				"arcana": "+18",
+				"arcana": "+17",
 				"deception": "+14",
 				"insight": "+11",
-				"perception": "+17",
-				"stealth": "+7"
+				"perception": "+18",
+				"stealth": "+9"
 			},
 			"senses": [
 				"blindsight 60 ft.",
 				"darkvision 120 ft."
 			],
-			"passive": 27,
+			"passive": 26,
 			"resist": [
 				"cold",
 				"psychic",
@@ -29485,27 +29485,39 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Forearm Spike (Bite)",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h}18 ({@damage 2d8 + 9}) piercing damage plus 14 ({@damage 4d6}) fire damage."
+						"{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h}19 ({@damage 2d8 + 10}) piercing damage plus 14 ({@damage 4d6}) poison damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d4 + 9}) slashing damage."
+						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d4 + 10}) slashing damage."
 					]
 				},
 				{
-					"name": "Tail",
+					"name": "Kick (Tail)",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 20 ft., one target. {@h}16 ({@damage 2d6 + 9}) bludgeoning damage."
+						"{@atk mw} {@hit 17} to hit, reach 20 ft., one target. {@h}17 ({@damage 2d6 + 10}) bludgeoning damage."
 					]
 				},
 				{
-					"name": "Fire Breath {@recharge 5}",
+					"name": "Forearm Spiked Bracers (Breath Weapons) {@recharge 5}",
 					"entries": [
-						"Niv-Mizzet exhales fire in a 90-foot cone. Each creature in that area must make a {@dc 25} Dexterity saving throw, taking 91 ({@damage 26d6}) fire damage on a failed save, or half as much damage on a successful one."
+						"Logan uses one of his two forearm spiked bracers by blowing into them."
+					]
+				},
+				{
+					"name": "Acid Forearm Gas (Breath Weapon) {@recharge 5}",
+					"entries": [
+						"Logan exhales acidic gas in a 90-foot cone. Each creature in that area must make a {@dc 25} Dexterity saving throw, taking 67 ({@damage 15d8}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Poison Forearm Gas Cloud (Breath Weapon) {@recharge 5}",
+					"entries": [
+						"Logan exhales poisonous gas in a cube of up to 60 feet per side. Cube lasts until the end of Logan's next turn, or until a strong wind disperses the poison.  When a creature enters the cloud for the first time on a turn or starts its turn there, that creature must make a {@dc 25} Dexterity saving throw, taking 66 ({@damage 12d10}) poison damage on a failed save, or half as much damage on a successful one.  On a failed save the creature is also deafened for 1 minute.  A creature can repeat the saving throw at the end of each of its turns, ending on a success.  Creatures are affected even if they hold their breath or don't need to breath."
 					]
 				}
 			],
@@ -29513,25 +29525,25 @@
 				{
 					"name": "Cantrip",
 					"entries": [
-						"Niv-Mizzet casts one of his cantrips."
+						"Logan casts one of his cantrips."
 					]
 				},
 				{
 					"name": "Tail Attack",
 					"entries": [
-						"Niv-Mizzet makes a tail attack."
+						"Logan makes a tail attack."
 					]
 				},
 				{
-					"name": "Wing Attack (Costs 2 Actions)",
+					"name": "Forearm Blast (Wing Attack) (Costs 2 Actions)",
 					"entries": [
-						"Niv-Mizzet beats his wings. Each creature within 15 feet of him must succeed on a {@dc 25} Dexterity saving throw or take 14 ({@damage 2d4 + 9}) bludgeoning damage and be knocked {@condition prone}. Niv-Mizzet can then fly up to half his flying speed."
+						"Logan slams his forearms together creating a blast radius around him.  Each creature within 15 feet of him must succeed on a {@dc 25} Dexterity saving throw or take 14 ({@damage 2d4 + 9}) bludgeoning damage and be knocked {@condition prone}. Logan can then fly up to half his flying speed."
 					]
 				},
 				{
 					"name": "Dracogenius (Costs 3 Actions)",
 					"entries": [
-						"Niv-Mizzet regains a spell slot of 3rd level or lower."
+						"Logan regains a spell slot of 3rd level or lower."
 					]
 				}
 			],
@@ -29575,41 +29587,7 @@
 				"restrained",
 				"stunned"
 			],
-			"hasFluff": true,
-			"hasFluffImages": true,
-			"tokenUrl": "https://5e.tools/img/GGR/Niv-Mizzet.png?v=1.130.3",
-			"fluff": {
-				"name": "Niv-Mizzet",
-				"source": "GGR",
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"type": "entries",
-										"entries": [
-											"Possessed of arrogance and vanity that matches his vast intellect and tremendous power, Niv-Mizzet is the ancient dragon who founded and continues to control the Izzet League. From his private laboratory at the top of the Izzet guildhall, Niv-Mizzet directs the research and experiments of his countless underlings. He coordinates a tremendous number of apparently unrelated projects, working toward some mysterious end.",
-											"There can be little doubt that this ancient dragon is one of the most intelligent beings on Ravnica and one of the world's most powerful spellcasters. He is just as acquisitive as any dragon, but his treasure is scientific and magical knowledge. His ambition is a looming threat in the minds of all the other guildmasters, but confronting him directly is almost unthinkable thanks to the combination of his awesome magical power and the sheer physical threat of a fire-breathing, swordtoothed dragon."
-										]
-									}
-								]
-							}
-						]
-					}
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/GGR/Niv-Mizzet.jpg"
-						}
-					}
-				]
-			}
+			"tokenUrl": "https://i.imgur.com/3LusNez.png"
 		}
 	]
 }
