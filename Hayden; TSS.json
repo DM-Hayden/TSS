@@ -29370,13 +29370,22 @@
 								"{@spell shocking grasp}"
 							]
 						},
+						"0W": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell light}",
+								"{@spell prestidigitation}",
+								"{@spell ray of frost}",
+								"{@spell shocking grasp}"
+							]
+						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell detect magic}",
+								"D:{@spell detect magic}",
 								"{@spell magic missile}",
 								"{@spell shield}",
-								"{@spell thunderwave}",
+								"D:{@spell thunderwave}",
 								"{@spell unseen servant}"
 							]
 						},
@@ -29385,8 +29394,8 @@
 							"spells": [
 								"{@spell blur}",
 								"{@spell enlarge/reduce}",
-								"{@spell flaming sphere}",
-								"{@spell hold person}",
+								"D:{@spell flaming sphere}",
+								"D:{@spell hold person}",
 								"{@spell scorching ray}"
 							]
 						},
@@ -29402,7 +29411,7 @@
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell confusion}",
+								"D:{@spell confusion}",
 								"{@spell dimension door}",
 								"{@spell fabricate}"
 							]
@@ -29410,9 +29419,9 @@
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell conjure elemental}",
-								"{@spell polymorph}",
-								"{@spell wall of fire}",
+								"D:{@spell conjure elemental}",
+								"D:{@spell polymorph}",
+								"D:{@spell wall of fire}",
 								"{@spell wall of force}"
 							]
 						},
@@ -29428,14 +29437,14 @@
 							"slots": 1,
 							"spells": [
 								"{@spell project image}",
-								"{@spell reverse gravity}",
+								"D:{@spell reverse gravity}",
 								"{@spell teleport}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell control weather}",
+								"D:{@spell control weather}",
 								"{@spell maze}",
 								"{@spell power word stun}"
 							]
