@@ -29366,16 +29366,7 @@
 								"{@spell fire bolt}",
 								"{@spell light}",
 								"{@spell prestidigitation}",
-								"{@spell ray of frost}",
-								"{@spell shocking grasp}"
-							]
-						},
-						"0W": {
-							"spells": [
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell prestidigitation}",
-								"{@spell ray of frost}",
+								"D:{@spell frostbite}",
 								"{@spell shocking grasp}"
 							]
 						},
@@ -29403,6 +29394,8 @@
 							"slots": 3,
 							"spells": [
 								"{@spell counterspell}",
+								"D:{@spell dispel magic}",
+								"D:{@spell erupting earth}",
 								"{@spell fireball}",
 								"{@spell lightning bolt}",
 								"{@spell slow}"
@@ -29430,6 +29423,7 @@
 							"spells": [
 								"{@spell chain lightning}",
 								"{@spell disintegrate}",
+								"D:{@spell flesh to stone}",
 								"{@spell true seeing}"
 							]
 						},
@@ -29446,13 +29440,15 @@
 							"spells": [
 								"D:{@spell control weather}",
 								"{@spell maze}",
+								"D:{@spell incendiary cloud}",
 								"{@spell power word stun}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell prismatic wall}"
+								"{@spell prismatic wall}",
+								"{@spell shapechange}"
 							]
 						}
 					},
