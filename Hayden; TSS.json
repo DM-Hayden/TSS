@@ -29448,7 +29448,7 @@
 							"slots": 1,
 							"spells": [
 								"{@spell prismatic wall}",
-								"{@spell shapechange}"
+								"D:{@spell shapechange}"
 							]
 						}
 					},
