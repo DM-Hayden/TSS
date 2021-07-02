@@ -24133,7 +24133,7 @@
 				{
 					"name":"Fulgurmancer",
 					"entries":[
-						"The kirin has advantage on Concentration checks to maintain concentration on a spell. Additionally, when a creature fails their saving throw against a spell that deals lightning damage on a turn, that creature is afflicted with thunderblight for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The kirin has advantage on Concentration checks to maintain concentration on a spell. Additionally, when a creature fails their saving throw against a spell that deals lightning damage on a turn, that creature is afflicted with {@condition Thunderblight|TSS} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
