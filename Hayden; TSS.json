@@ -24191,15 +24191,15 @@
 						"{@spell see invisibility}",
 						"{@spell thunderstep}",
 						"{@spell thunderwave} (at 5th-level)",
-						"\n 2/day each: {@spell chain lightning}",
-						"\n 2/day each: {@spell storm of vengeance}"
+						"2/day: {@spell chain lightning}",
+						"1/day: {@spell storm of vengeance}"
 					],
 					"ability": "wis"
 				},
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The kirin is a 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The kirin has the following spells prepared:"
+						"The kirin is a 20th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 20}, {@hit 12} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following spells:"
 					],
 					"spells": {
 						"0": {
@@ -24238,7 +24238,11 @@
 						"5": {
 							"slots": 4,
 							"spells": [
-								"{@spell destructive wave}"
+								"{@spell call lightning}",
+								"{@spell destructive wave}",
+								"{@spell elemental bane|XGE} (lightning)",
+								"{@spell lightning bolt}",
+								"{@spell storm sphere|XGE}"
 							]
 						}
 					},
