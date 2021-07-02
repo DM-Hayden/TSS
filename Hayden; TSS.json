@@ -14215,8 +14215,7 @@
 						"{@spell control weather}",
 						"{@spell expeditious retreat}",
 						"{@spell gust of wind}",
-						"{@spell see invisibility}",
-						"{@spell (at 5th-level)}"
+						"{@spell see invisibility}"
 					],
 					"ability": "wis"
 				},
@@ -24191,7 +24190,8 @@
 						"{@spell jump}",
 						"{@spell see invisibility}",
 						"{@spell thunderstep}",
-						"{@spell thunderwave}"
+						"{@spell thunderwave}",
+						"asdf"
 					],
 					"ability": "wis"
 				},
