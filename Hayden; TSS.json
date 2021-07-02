@@ -24190,8 +24190,9 @@
 						"{@spell jump}",
 						"{@spell see invisibility}",
 						"{@spell thunderstep}",
-						"{@spell thunderwave}",
-						"asdf"
+						"{@spell thunderwave} (at 5th-level)",
+						"\n 2/day each: {@spell chain lightning}",
+						"\n 2/day each: {@spell storm of vengeance}"
 					],
 					"ability": "wis"
 				},
