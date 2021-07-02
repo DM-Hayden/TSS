@@ -14215,7 +14215,8 @@
 						"{@spell control weather}",
 						"{@spell expeditious retreat}",
 						"{@spell gust of wind}",
-						"{@spell see invisibility}"
+						"{@spell see invisibility}",
+						"(at 5th-level)"
 					],
 					"ability": "wis"
 				},
@@ -24041,6 +24042,244 @@
 			"conditionInflict": [
 				"frightened",
 				"prone"
+			]
+		},
+		{
+			"name": "Tempered Kirin",
+			"size": "L",
+			"type": {
+				"type": "celestial",
+				"tags": [
+					"elder"
+				]
+			},
+			"source": "TSS",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 23,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 171,
+				"formula": "18d10 + 72"
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 23,
+			"dex": 16,
+			"con": 18,
+			"int": 19,
+			"wis": 22,
+			"cha": 22,
+			"save": {
+				"dex": "+9",
+				"con": "+10",
+				"int": "+10",
+				"wis": "+12"
+			},
+			"skill": {
+				"insight": "+12",
+				"perception": "+12",
+				"religion": "+10"
+			},
+			"immune": [
+				"lightning"
+			],
+			"conditionImmune": [
+				"paralyzed"
+			],
+			"passive": 22,
+			"languages": [
+				"All",
+				"telepathy 120 ft."
+			],
+			"cr": "19",
+			"page": 0,
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the kirin fails a saving throw, it can choose to succeed in stead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The kirin has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The kirin's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Control Lightning",
+					"entries": [
+						"The kirin can choose any location within 30 feet of it as the starting location of the lightning bolt spell."
+					]
+				},
+				{
+					"name":"Fulgurmancer",
+					"entries":[
+						"The kirin has advantage on Concentration checks to maintain concentration on a spell. Additionally, when a creature fails their saving throw against a spell that deals lightning damage on a turn, that creature is afflicted with thunderblight for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kirin makes three attacks. two with its hooves and one with its horn."
+					]
+				},
+				{
+					"name": "Hoof",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. Hit 10 ({@damage 2d4 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Horn",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. Hit 14 ({@damage 2d8 + 5}) piercing damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The kirin makes a Wisdom (Perception) Check."
+					]
+				},
+				{
+					"name": "Smite",
+					"entries": [
+						"The kirin makes a hoof attack or casts thunderclap."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The kirin moves up to its half speed without provoking opportunity attacks."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The kirin's innate spellcasting ability is Wisdom. It can innately cast the following spells (spell save {@dc 20}), requiring no material components:"
+					],
+					"will": [
+						"{@spell control weather}",
+						"{@spell expeditious retreat}",
+						"{@spell gust of wind}",
+						"{@spell jump}",
+						"{@spell see invisibility}",
+						"{@spell thunderstep}",
+						"{@spell thunderwave}"
+					],
+					"ability": "wis"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The kirin is a 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The kirin has the following spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell thaumaturgy}",
+								"{@spell schocking grasp}",
+								"{@spell thunderclap|XGE}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell thunderwave}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": []
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell thunder step|XGE}",
+								"{@spell call lightning}",
+								"{@spell lightning bolt}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell elemental bane|XGE} (lightning)",
+								"{@spell storm sphere|XGE}"
+							]
+						},
+						"5": {
+							"slots": 4,
+							"spells": [
+								"{@spell destructive wave}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Kirin resembles a unicorn, though a closer look reveals that it is covered in scales rather than a coat. Its majestic white mane and hair stand on end, as if charged with static. The monster often crackles with stray electricity.",
+							"Kirin have white fur used for picking up electricity. When enough electrical currents are picked up in the fur, Kirin will glow brightly and its hide will deflect most attacks. From this, the Adventurer's Guild believe that Kirin's high metabolism helps it pick up electricity as well. A Kirin's most vital feature is its long horn. This horn is used to summon lightning from the sky, even when there isn't a storm cloud in sight, to strike any foes that threaten it. However, even if this horn is destroyed, Kirin can still summon lightning bolts with little effort.",
+							"Some of the more rare, older, or just stronger individuals are known for having unusually strong electrical powers that are yet to be fully understood. Some of the larger, more stronger muscles are located in its legs, capable of delivering deadly kicks. Equipped with such powerful legs, all Kirin posses the ability to run at speeds so unexpectedly fast they appear to teleport, leaving behind a trail of blue electricity.",
+							"Kirin are a highly unpredictable species. Sometimes Kirin are calm, other times they are aggressive. In one legend, it was said that a Kirin actually destroyed a whole village with its electrical powers."
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/hSz2NSH.png",
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
 			]
 		},
 		{
