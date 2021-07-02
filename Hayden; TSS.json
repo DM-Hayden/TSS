@@ -24145,15 +24145,15 @@
 					]
 				},
 				{
-					"name": "Hoof",
+					"name": "Hooves",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. Hit 10 ({@damage 2d4 + 5}) bludgeoning damage."
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. Hit 11 ({@damage 2d4 + 6}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Horn",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. Hit 14 ({@damage 2d8 + 5}) piercing damage."
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. Hit 15 ({@damage 2d8 + 6}) piercing damage."
 					]
 				}
 			],
@@ -24174,6 +24174,12 @@
 					"name": "Move",
 					"entries": [
 						"The kirin moves up to its half speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Cast a Spell (Costs 2 Actions)",
+					"entries": [
+						"The kirin casts a spell from its list of known spells, using a spell slot as normal."
 					]
 				}
 			],
