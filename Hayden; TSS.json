@@ -24167,7 +24167,7 @@
 				{
 					"name": "Smite",
 					"entries": [
-						"The kirin makes a hoof attack or casts thunderclap."
+						"The kirin makes a hoof attack or casts {@spell thunderclap|XGE}."
 					]
 				},
 				{
@@ -24195,7 +24195,7 @@
 						"{@spell gust of wind}",
 						"{@spell jump}",
 						"{@spell see invisibility}",
-						"{@spell thunder step|XGE} x",
+						"{@spell thunder step|XGE}",
 						"{@spell thunderwave} (at 5th-level)",
 						"2/day: {@spell chain lightning}",
 						"1/day: {@spell storm of vengeance}"
@@ -24212,7 +24212,7 @@
 							"spells": [
 								"{@spell light}",
 								"{@spell thaumaturgy}",
-								"{@spell schocking grasp}",
+								"{@spell shocking grasp}",
 								"{@spell thunderclap|XGE}"
 							]
 						},
