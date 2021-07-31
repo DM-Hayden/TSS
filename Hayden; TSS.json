@@ -9,7 +9,7 @@
 					"Various"
 				],
 				"convertedBy": [
-					"Various"
+					"Hayden"
 				],
 				"color": "1e11d1",
 				"version": "2021/06/01",
@@ -17,13 +17,36 @@
 				"targetSchema": "1.0.0"
 			}
 		],
+		"optionalFeatureTypes": {
+			"GoD": "Gifts of Damnation",
+			"AH:TB": "Aberrant Horror; Transformation Boon",
+			"AH:TF": "Aberrant Horror; Transformation Flaw",
+			"TF:TB": "The Fiend; Transformation Boon",
+			"TF:TF": "The Fiend; Transformation Flaw",
+			"TLi:TB": "The Lich; Transformation Boon",
+			"TLi:TF": "The Lich; Transformation Flaw",
+			"TLy:TB": "The Lycanthrope; Transformation Boon",
+			"TLy:TF": "The Lycanthrope; Transformation Flaw",
+			"TS:TB": "The Seraph; Transformation Boon",
+			"TS:TF": "The Seraph; Transformation Flaw",
+			"V:TB": "Vampire; Transformation Boon",
+			"V:TF": "Vampire; Transformation Flaw",
+			"BGT:Ac": "Background Talent; Academic",
+			"BGT:Ar": "Background Talent; Aristocrat",
+			"BGT:Cl": "Background Talent; Clergy",
+			"BGT:CF": "Background Talent; Common Folk",
+			"BGT:Cr": "Background Talent; Criminal",
+			"BGT:M": "Background Talent; Militarist",
+			"BGT:O": "Background Talent; Outlander",
+			"BGT:S": "Background Talent; Seafarer"
+		},
 		"dateAdded": 1539558000,
 		"dateLastModified": 1539558000
 	},
 	"spell": [
 		{
 			"name": "Thunderwave",
-			"source": "a",
+			"source": "TSS",
 			"page": 282,
 			"level": 1,
 			"school": "V",
