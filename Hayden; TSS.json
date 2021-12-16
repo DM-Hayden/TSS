@@ -40070,15 +40070,15 @@
 						],
 						[
 							"10\u201316",
-							"{@creature Husk Zombie|bestiary|type=undead|search=Husk Zombie}"
+							"{@creature Husk Zombie}"
 						],
 						[
 							"17\u201320",
-							"{@creature Horde Zombie|bestiary|type=undead|search=Horde Zombie}"
+							"{@creature Horde Zombie}"
 						],
 						[
 							"21+",
-							"{@filter Chaos Zombie|bestiary|type=undead|search=Chaos Zombie}"
+							"{@filter Chaos Zombie}"
 						]
 					]
 				}
