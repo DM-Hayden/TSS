@@ -40040,6 +40040,49 @@
 				"A creature infected with the Weeping Pox must make a DC 16 Constitution saving throw each day at dawn. On a failed save, the creature's Constitution score is reduced by {@dice 1d4}. If a creature's Constitution score is reduced to 0 then they die.",
 				"Known to the Morbus Doctore and only a select few others, the cure to the Pox is a closely guarded secret. The Morbus Doctore are willing to sell a vial of the antidote to those who know how to ask, for an exorbitant price or a costly favour."
 			]
+		},
+		{
+			"name": "Banshee Bane",
+			"source": "TSS",
+			"page": 999,
+			"entries": [
+				"An outbreak of Banshee Bane is always met with horror, but that fear is felt tenfold by practitioners of magic both arcane and divine.",
+				"Spread when the bodily fluid of an infected creature touches a humanoid, through bite wounds, or when an infected creature casts a spell (direct or indirect) on a humanoid, that humanoid must succeed on a DC 15 Constitution saving throw or become infected with Banshee Bane.",
+				"Beginning {@dice 1d6} days after infection, the infected creature must make a DC 15 Constitution saving throw at the end of each long rest.", 
+				"If the saving throw fails, the victim loses {@dice 1d3} Intelligence and {@dice 1d3} Wisdom, and takes 14 ({@damage 4d6}) necrotic damage, and its hp maximum is reduced by an amount equal to the damage taken. This reduction lasts until the victim finishes a long rest after the disease is cured.",
+				"If the saving throw succeeds, nothing happens; the disease ends after the second consecutive successful saving throws. {@spell lesser restoration} gives the victim advantage on the next saving throw. {@spell Greater restoration} allows the victim to make an immediate saving throw instead of waiting until the next long rest. Lost Intelligence and Wisdom can't be recovered while the disease persists.", 
+				"Once the disease ends, lost Intelligence and Wisdom can be restored by {@spell greater restoration} or comparable magic. ",
+				"If a creature dies while infected with Banshee Bane, roll a {@dice d20}, add the character's Constitution modifier, and find the result on the table below to determine what undead form the victim's body rises in.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Roll",
+						"Result"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1\u20139",
+							"None; victim is simply dead"
+						],
+						[
+							"10\u201316",
+							"{@creature Husk Zombie|bestiary|type=undead|search=Husk Zombie}}"
+						],
+						[
+							"17\u201320",
+							"{@creature Horde Zombie|bestiary|type=undead|search=Horde Zombie}}"
+						],
+						[
+							"21+",
+							"{@filter Chaos Zombie|bestiary|type=undead|search=Chaos Zombie}"
+						]
+					]
+				}
+			]
 		}
 	],
 	"adventure": [
