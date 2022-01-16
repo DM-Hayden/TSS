@@ -31324,6 +31324,160 @@
 				"stunned"
 			],
 			"tokenUrl": "https://i.imgur.com/3LusNez.png"
+		},
+		{
+			"name": "Corrupted Hyena",
+			"source": "TSS",
+			"page": 999,
+			"size": "M",
+			"environment": [
+				"forest"
+			],
+			"type": "beast",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"from": [
+						"natural armor"
+					],
+					"ac": 15
+				}
+			],
+			"hp": {
+				"average": 90,
+				"formula": "12d10 + 24"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 15,
+			"int": 6,
+			"wis": 12,
+			"cha": 8,
+			"save": {
+				"dex": "+4"
+			},
+			"skill": {
+				"perception": "+2"
+			},
+			"passive": 14,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"resist": [
+				"cold",
+				"necrotic",
+				{
+					"note": "from nonmagical attacks",
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"understands Common and Darakhul but can't speak"
+			],
+			"languageTags": [
+				"C",
+				"OTH",
+				"CS"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The corrupted hyena has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Spring Attack",
+					"entries": [
+						"The corrupted hyena can take the Disengage action as a bonus action on each of its turns."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The corrupted hyena has advantage on attack rolls against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Stench",
+					"entries": [
+						"Any creature that starts its turn within 5 feet of the corrupted hyena must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} until the start of its next turn. On a successful saving throw, the creature is immune to the corrupted hyena's Stench for 24 hours."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"N"
+			],
+			"conditionInflict": [
+				"exhaustion",
+				"poisoned"
+			],
+			"traitTags": [
+				"Pack Tactics",
+				"Magic Resistance",
+				"Spring Attack",
+				"Stench"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The corrupted hyena makes two attacks with its bite."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Shake It Off {@recharge 5}",
+					"entries": [
+						"The corrupted hyena shakes off bits of necrotic fungus in a 10-foot radius cloud. All creatures in the fungus cloud take 7 ({@damage 2d6}) necrotic damage and must make a {@dc 14} Wisdom saving throw or become {@condition slow} for 1 minute. While {@condition slow} the target is slowed as if from a {@spell Slow} spell. At the end of its turns, the affected target can repeat the Wisdom saving throw. If it succeeds, the slow condition ends. Corrupted Hyenas are immune to the effects of this cloud. If the saving throw fails by 5 or more, the creature gains one level of {@condition exhaustion}. This {@condition exhaustion} lasts until the creature finishes a short or long rest."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Shake It Off",
+					"entries": [
+						"When injured, the corrupted hyena can use its reaction to use its Shake It Off attack if charged."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"tokenUrl": "https://i.imgur.com/ntACDlO.png"
 		}
 	],
 	"variantrule": [
