@@ -5356,7 +5356,7 @@
 					]
 				},
 				{
-					"name": "Vortex (@recharge 5)",
+					"name": "Vortex  {@recharge 5}",
 					"entries": [
 						"The barioth creates a 15-foot wide vortex within 60 feet of it. Each creature in that area must make a {@dc 18} Dexterity saving throw, taking 22 ({@damage 5d8}) bludgeoning damage and 7 ({@damage 2d6}) cold damage on a failed save or half on a successful save."
 					]
@@ -5379,6 +5379,148 @@
 					"name": "Ice Slide (Costs 2 Actions)",
 					"entries": [
 						"The Barioth moves up to its speed, during this move it may move through other creatures. Any creatures the barioth moves through must succeed on a {@dc 19} Dexterity saving throw or take 20 ({@damage 3d8 + 6}) slashing damage and be knocked {@condition prone}."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"senseTags": [
+				"D"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Barioth is a quadrupedal Flying Wyvern, with various cat-like features. Its body is mostly covered with icy white plates and spikes along its neck, spine, and tail. Its face features two massive, curved tusks of an amber coloration. Its forelegs are longer and more powerful than its back legs, with deadly spikes along its wings, as well as two large claws.",
+							"Barioth move quickly and attack wildly, presenting a challenge even to experienced adventurers. Barioth uses its fangs and claws to slide around on the ice making it hard to keep up with. It is able to slide its tail to its side and wield it in a club-like fashion. It is capable of producing a wind blast; Barioth will spit out an icy ball that will create a powerful tornado.",
+							"Barioth is highly aggressive and territorial. It will attack any hunter that enters its domain. It will eat Popo or Anteka when fatigued.",
+							"Barioth inhabits icy areas such as the Tundra or the Snowy Mountains, where the roaming herbivores on which it preys are large and plentiful."
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/q7vHOZs.png",
+			"damageTags": [
+				"P",
+				"S",
+				"C",
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflicted": [
+				"prone"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Corrupted Barioth",
+			"size": "H",
+			"type": {
+				"type": "wyvern",
+				"tags": [
+					"flying"
+				]
+			},
+			"source": "TSS",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 207,
+				"formula": "18d12 + 90"
+			},
+			"speed": {
+				"walk": 50,
+				"fly": 40
+			},
+			"str": 15,
+			"dex": 23,
+			"con": 20,
+			"int": 10,
+			"wis": 14,
+			"cha": 8,
+			"save": {
+				"dex": "+11",
+				"wis": "+7",
+				"cha": "+4"
+			},
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				{
+					"special": "and slashing"
+				}
+			],
+			"immune": [
+				"necrotic"
+			],
+			"passive": 12,
+			"cr": "15",
+			"page": 999,
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The barioth makes three attacks. one with its bite and two claw attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. Hit 19 ({@damage 3d8 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. Hit 13 ({@damage 2d6 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail Swipe",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. Hit 22 ({@damage 3d10 + 6}) necrotic damage. The target and each creature within 5 foot radius of the target must make a {@dc 15} Strength saving throw. On a fail, they are pushed back 10 feet from the corrupted barioth and knocked {@condition prone}. On a success, they are still knocked back but are not {@condition prone}."
+					]
+				},
+				{
+					"name": "Vortex  {@recharge 5}",
+					"entries": [
+						"The barioth creates a 15-foot wide fungal vortex within 60 feet of it. Each creature in that area must make a {@dc 18} Dexterity saving throw, taking 22 ({@damage 5d8}) bludgeoning damage and 7 ({@damage 2d6}) necrotic damage on a failed save or half on a successful save."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The barioth makes a Wisdom (Perception) Check."
+					]
+				},
+				{
+					"name": "Tail Swipe",
+					"entries": [
+						"The barioth uses its tail swipe."
+					]
+				},
+				{
+					"name": "Necro Slide (Costs 2 Actions)",
+					"entries": [
+						"The Barioth moves up to its speed, during this move it may move through other creatures. Any creatures the barioth moves through must succeed on a {@dc 19} Dexterity saving throw or take 20 ({@damage 3d8 + 6}) necrotic damage and be knocked {@condition prone}."
 					]
 				}
 			],
@@ -27139,7 +27281,8 @@
 			],
 			"miscTags": [
 				"MW"
-			]
+			],
+			"tokenUrl": "https://i.imgur.com/BQg5hou.png"
 		},
 		{
 			"name": "Tzitzi-ya-ku",
