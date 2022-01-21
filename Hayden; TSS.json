@@ -16563,6 +16563,176 @@
 			]
 		},
 		{
+			"name": "Corrupted Kushala Daora",
+			"size": "H",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"elder"
+				]
+			},
+			"source": "TSS",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 189,
+				"formula": "18d12 + 72"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80
+			},
+			"str": 23,
+			"dex": 18,
+			"con": 19,
+			"int": 18,
+			"wis": 15,
+			"cha": 12,
+			"save": {
+				"str": "+11",
+				"dex": "+9",
+				"wis": "+7",
+				"cha": "+6"
+			},
+			"skill": {
+				"perception": "+7",
+				"stealth": "+9"
+			},
+			"vulnerable": [
+				"poison"
+			],
+			"passive": 17,
+			"languages": [
+				"Draconic"
+			],
+			"cr": "15",
+			"page": 0,
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"trait": [
+				{
+					"name": "Necro Barrier",
+					"entries": [
+						"A barrier of strong fungal winds surrounds the kushala daora in a 5-foot radius around it. The strong wind keeps fog, smoke, and other gases at bay. Small or smaller flying creatures or Objects can't pass through the wall. Loose, lightweight materials brought into the wall fly upward. Arrows, bolts, and other ordinary projectiles launched at the kushala daora are deflected upward and automatically miss. (Boulders hurled by Giants or siege engines, and similar projectiles, are unaffected.) Creatures in Gaseous Form can't pass through the barrier. When a Medium sized creature enters the Wind Barrier's area for the first time on a turn or starts its turn there, they must make a {@dc 19} Strength saving throw or be pushed back 10 feet. If a creature fails the saving throw by more than 5 they are also knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Poison Susceptibility",
+					"entries": [
+						"While {@condition poisoned}, the kushala daora's Wind Barrier is deactivated, it must land on its next turn, and is unable to fly until the {@condition poisoned} is removed. Once the {@condition poisoned} condition is removed, the kushala daora's Wind Barrier once again takes effect."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"The kushala daora doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kushala daora makes two bite attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. Hit 22 ({@damage 3d10 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Barrage",
+					"entries": [
+						"The kushala daora rains the debris down to the ground in a 10-foot-radius, 20-foot-high cylinder centered on a point within 150 feet. Each creature in the cylinder must make a {@dc 16} Dexteriy saving throw. A creature takes 17 ({@damage 3d10}) bludgeoning damage and 17 ({@damage 3d10}) slashing damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Tornado (1/Day)",
+					"entries": [
+						"The kushala daora conjures an tornado that lasts for 1 minute. The tornado is a 20-foot-radius, 60-foot-high spiraling cylinder of wind centered on a location within 100 feet of the kushala daora. This cylinder becomes difficult terrain for the duration, even for flying creatures. Unattended objects in this cylinder that are Large or smaller are pulled towards the center. When a creature enters the tornado's area for the first time on a turn or starts its turn there, it is struck by debris the tornado has picked up, and it must make a {@dc 19} Strength saving throw or taking 14 ({@damage 4d6}) bludgeoning damage plus 14 ({@damage 4d6}) slashing damage, they are pulled to the center of the cylinder, and are {@condition restrained} on a failed save, or half as much damage on a successful one and are not pulling into the center or {@condition restrained}.",
+						"On each of the kushala daoras turns, it must use its bonus action to move the tornado 30 feet in any direction."
+					]
+				},
+				{
+					"name": "Wind Tunnel {@recharge 5}",
+					"entries": [
+						"The kushala daora blast of strong wind in a 90 foot line that is 10 feet wide. Each creature in the line must succeed on a {@dc 19} Strength saving throw, taking 49 ({@damage 11d8}) force damage and be pushed 15 feet away in a direction following the line on a failed save or half as much on a successful one and pushed away. Any creature in the line must spend 2 feet of movement for every 1 foot it moves when moving closer to the kushala daora. The wind tunnel disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"The kushala daora can move all dust devil up to 30 feet in any direction."
+					]
+				},
+				{
+					"name": "Bite Attack",
+					"entries": [
+						"The kushala daora makes a bite attack."
+					]
+				},
+				{
+					"name": "Dust Devils (Costs 2 Actions)",
+					"entries": [
+						"The kushala daora chooses 3 unoccupied 5-foot cube within 60 feet of it. An elemental force that resembles a dust devil appears in the cube and lasts for 1 minute. Any creature that ends its turn within 5 feet of the dust devil must make a {@dc 19} Strength saving throw. On a failed save, the creature takes 9 ({@damage 2d8}) bludgeoning damage and is pushed 10 feet away. On a successful save, the creature takes half as much damage and isn't pushed.",
+						"If the dust devil moves over sand, dust, loose dirt, or small gravel, it sucks up the material and forms a 10-foot-radius cloud of debris around itself that lasts until the start of your next turn. The cloud heavily obscures its area."
+					]
+				}
+			],
+			"traitTags": [
+				"Flyby"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Kushala Daora is a four legged Elder Dragon with a pair of widely spreading wings. Its skin is plated with metal that makes weapons bounce off without enough sharpness. Kushala Daora has numerous horns lining its head and sharp claws on each of its legs. Kushala Daora have the ability to manipulate strong winds, creating a wind barrier that surrounds itself. The wind barrier can knock a adventurer back, making the adventurer vulnerable to Kushala Daora's attacks. The wind barrier also makes it difficult for the adventurer to attack its body.",
+							"Kushala Daora are rare top predators, and fear almost nothing. However, it is occasionally threatened by the large, fast and aggressive Tigrex and the rare powerful Rajang. They can compete with other elder dragons, especially Chameleos in the Jungle. There are reports of Kushala Daora eating mineral deposits, this may show how they manage to have a metal rust-able skin. Kushala Daora possesses some of the largest wings of any monster. It uses these to sail effortlessly in the air. It can hover off the ground and blast hunters with wind.",
+							"It uses a special organ to produce its famous wind based-attacks and abilities. When hit with poison, its organ will be weak and its shield will disappear for a short period of time while fighting the toxins. Kushala Daora have tough, metal filled skin, but suffer from a severe weakness to poison, which can easily enter the bloodstream through cracks created in the skin. Kushala Daora must infrequently shed their trademark skin as they grow. This can easily be spotted as the once shining silver scales will rust over due to oxidation with air. The most well-known ability about Kushala Daora is the storms it summons. These storms can easily destroy whole regions, varying from region to region. Kushala Daora can cause sandstorms, hurricanes, and snowstorms though it is unknown how.",
+							"Some extra rare individuals have increased storm and wind-creating abilities. Such as creating multiple free-roaming tornados and wind tunnels under multiple targets all at once using its wings to control the wind flow, they are able to blow a breath that is both extremely strong and cold to the point of freezing the ground and water it has breathed on."
+						]
+					}
+				]
+			},
+			"damageTags": [
+				"P",
+				"B",
+				"S",
+				"O"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			]
+		},
+		{
 			"name": "Lagiacrus",
 			"size": "H",
 			"type": "leviathan",
