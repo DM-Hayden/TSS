@@ -16634,6 +16634,12 @@
 					]
 				},
 				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the legiana fails a saving throw, it can choose to succeed in stead."
+					]
+				},
+				{
 					"name": "Flyby",
 					"entries": [
 						"The kushala daora doesn't provoke opportunity attacks when it flies out of an enemy's reach."
@@ -16656,20 +16662,20 @@
 				{
 					"name": "Barrage",
 					"entries": [
-						"The kushala daora rains the debris down to the ground in a 10-foot-radius, 20-foot-high cylinder centered on a point within 150 feet. Each creature in the cylinder must make a {@dc 16} Dexteriy saving throw. A creature takes 17 ({@damage 3d10}) bludgeoning damage and 17 ({@damage 3d10}) slashing damage on a failed save, or half as much damage on a successful one."
+						"The kushala daora rains the debris down to the ground in a 10-foot-radius, 20-foot-high cylinder centered on a point within 150 feet. Each creature in the cylinder must make a {@dc 16} Dexteriy saving throw. A creature takes 17 ({@damage 3d10}) bludgeoning damage and 17 ({@damage 3d10}) necrotic damage on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
 					"name": "Tornado (1/Day)",
 					"entries": [
-						"The kushala daora conjures an tornado that lasts for 1 minute. The tornado is a 20-foot-radius, 60-foot-high spiraling cylinder of wind centered on a location within 100 feet of the kushala daora. This cylinder becomes difficult terrain for the duration, even for flying creatures. Unattended objects in this cylinder that are Large or smaller are pulled towards the center. When a creature enters the tornado's area for the first time on a turn or starts its turn there, it is struck by debris the tornado has picked up, and it must make a {@dc 19} Strength saving throw or taking 14 ({@damage 4d6}) bludgeoning damage plus 14 ({@damage 4d6}) slashing damage, they are pulled to the center of the cylinder, and are {@condition restrained} on a failed save, or half as much damage on a successful one and are not pulling into the center or {@condition restrained}.",
+						"The kushala daora conjures an tornado that lasts for 1 minute. The tornado is a 20-foot-radius, 60-foot-high spiraling cylinder of wind centered on a location within 100 feet of the kushala daora. This cylinder becomes difficult terrain for the duration, even for flying creatures. Unattended objects in this cylinder that are Large or smaller are pulled towards the center. When a creature enters the tornado's area for the first time on a turn or starts its turn there, it is struck by debris the tornado has picked up, and it must make a {@dc 19} Strength saving throw or taking 14 ({@damage 4d6}) bludgeoning damage plus 14 ({@damage 4d6}) necrotic damage, they are pulled to the center of the cylinder, and are {@condition restrained} on a failed save, or half as much damage on a successful one and are not pulling into the center or {@condition restrained}.",
 						"On each of the kushala daoras turns, it must use its bonus action to move the tornado 30 feet in any direction."
 					]
 				},
 				{
 					"name": "Wind Tunnel {@recharge 5}",
 					"entries": [
-						"The kushala daora blast of strong wind in a 90 foot line that is 10 feet wide. Each creature in the line must succeed on a {@dc 19} Strength saving throw, taking 49 ({@damage 11d8}) force damage and be pushed 15 feet away in a direction following the line on a failed save or half as much on a successful one and pushed away. Any creature in the line must spend 2 feet of movement for every 1 foot it moves when moving closer to the kushala daora. The wind tunnel disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them."
+						"The kushala daora blast of strong fungal laced wind in a 90 foot line that is 10 feet wide. Each creature in the line must succeed on a {@dc 19} Strength saving throw, taking 49 ({@damage 11d8}) necrotic damage and be pushed 15 feet away in a direction following the line on a failed save or half as much on a successful one and pushed away. Any creature in the line must spend 2 feet of movement for every 1 foot it moves when moving closer to the kushala daora. The wind tunnel disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them."
 					]
 				}
 			],
@@ -16687,15 +16693,16 @@
 					]
 				},
 				{
-					"name": "Dust Devils (Costs 2 Actions)",
+					"name": "Necro Dust Devils (Costs 2 Actions)",
 					"entries": [
-						"The kushala daora chooses 3 unoccupied 5-foot cube within 60 feet of it. An elemental force that resembles a dust devil appears in the cube and lasts for 1 minute. Any creature that ends its turn within 5 feet of the dust devil must make a {@dc 19} Strength saving throw. On a failed save, the creature takes 9 ({@damage 2d8}) bludgeoning damage and is pushed 10 feet away. On a successful save, the creature takes half as much damage and isn't pushed.",
+						"The kushala daora chooses 3 unoccupied 5-foot cube within 60 feet of it. An elemental force that resembles a dust devil appears in the cube and lasts for 1 minute. Any creature that ends its turn within 5 feet of the dust devil must make a {@dc 19} Strength saving throw. On a failed save, the creature takes 9 ({@damage 2d8}) necrotic damage and is pushed 10 feet away. On a successful save, the creature takes half as much damage and isn't pushed.",
 						"If the dust devil moves over sand, dust, loose dirt, or small gravel, it sucks up the material and forms a 10-foot-radius cloud of debris around itself that lasts until the start of your next turn. The cloud heavily obscures its area."
 					]
 				}
 			],
 			"traitTags": [
-				"Flyby"
+				"Flyby",
+				"Legendary Resistances"
 			],
 			"actionTags": [
 				"Multiattack"
@@ -16707,6 +16714,7 @@
 				"B",
 				"SD"
 			],
+			"tokenUrl":"https://i.imgur.com/eQrSX79.png",
 			"fluff": {
 				"entries": [
 					{
