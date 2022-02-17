@@ -30902,7 +30902,7 @@
 			}
 		},
 		{
-			"name": "Ganondorf Dragmire (Gorvak Dolamire)",
+			"name": "Gorvak Dolamire",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "TSS",
@@ -30955,6 +30955,7 @@
 				"charmed"
 			],
 			"languages": [
+				"Netherese",
 				"Abyssal",
 				"Common"
 			],
@@ -30963,7 +30964,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						" Ganondorf is a 17th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). He has the following spells prepared:"
+						"Gorvak is a 17th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). He has the following spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -30990,7 +30991,8 @@
 								"{@spell darkness}",
 								"{@spell detect thoughts}",
 								"{@spell levitate}",
-								"{@spell mirror image}"
+								"{@spell mirror image}",
+								"{@spell skywrite}"
 							]
 						},
 						"3": {
@@ -31018,7 +31020,8 @@
 							"spells": [
 								"{@spell animate objects}",
 								"{@spell dominate person}",
-								"{@spell scrying}"
+								"{@spell scrying}",
+								"{@spell telekinesis}"
 							]
 						},
 						"6": {
@@ -31055,7 +31058,7 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If Ganondorf fails a saving throw, he can choose to succeed instead."
+						"If Gorvak fails a saving throw, he can choose to succeed instead."
 					]
 				}
 			],
@@ -31063,7 +31066,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Ganondorf makes two greatsword attacks."
+						"Gorvak makes two greatsword attacks."
 					]
 				},
 				{
@@ -31075,7 +31078,7 @@
 				{
 					"name": "Orb of Force",
 					"entries": [
-						"{@atk rs} {@hit 7} to hit, range 100 ft., one target. {@h}32 ({@damage 8d6 + 4}) force damage and the target may make a DC 16 Dexterity saving throw if armed with a melee weapon. On a successful save, the target takes no damage, and the orb is reflected back at Ganondorf who then may make a DC 18 Dexterity saving throw to reflect the orb back towards the target. This continues, adding 2 to the saving throw DC on each success, until either Ganondorf or the target fails the saving throw. On a failed save, either Ganondorf or the target takes the damage."
+						"{@atk rs} {@hit 7} to hit, range 100 ft., one target. {@h}32 ({@damage 8d6 + 4}) force damage and the target may make a DC 16 Dexterity saving throw if armed with a melee weapon. On a successful save, the target takes no damage, and the orb is reflected back at Gorvak who then may make a DC 18 Dexterity saving throw to reflect the orb back towards the target. This continues, adding 2 to the saving throw DC on each success, until either Gorvak or the target fails the saving throw. On a failed save, either Gorvak or the target takes the damage."
 					]
 				}
 			],
@@ -31083,19 +31086,19 @@
 				{
 					"name": "Summon Allies",
 					"entries": [
-						"Roll 1d20 and Ganondorf summons any creature(s) from the Wizzrobe summon table (Legend of Zelda Monster Manual p. 63). This action cannot be used again until all creatures summoned this way have been killed."
+						"Roll 1d20 and Gorvak summons any creature(s) from the Wizzrobe summon table (LoZMManual p. 63). This action cannot be used again until all creatures summoned this way have been killed."
 					]
 				},
 				{
 					"name": "Multi-Orb of Force. (Costs 2 Actions)",
 					"entries": [
-						"Ganon casts Orb of Force on all targets within range. The saving throw to reflect the orb is a DC 20 Dexterity saving throw for each target. On a failed save, the target takes the damage, but Ganon does not have the opportunity to reflect the Orb on a succesful one."
+						"Gorvak casts Orb of Force on all targets within range. The saving throw to reflect the orb is a DC 20 Dexterity saving throw for each target. On a failed save, the target takes the damage, but Gorvak does not have the opportunity to reflect the Orb on a succesful one."
 					]
 				},
 				{
 					"name": "Transformation",
 					"entries": [
-						"If Ganondorf ends a turn with fewer than 15 hit points, he can transform into Ganon, King of Evil. He regains all lost hit points, legendary actions, and spell slots, and any condition effects are ended."
+						"If Gorvak ends a turn with fewer than 15 hit points, he can transform into Gorvak, King of Evil. He regains all lost hit points, legendary actions, and spell slots, and any condition effects are ended."
 					]
 				}
 			],
@@ -31132,7 +31135,7 @@
 			"tokenUrl": "https://i.imgur.com/1w10ESs.png"
 		},
 		{
-			"name": "Ganon, King of Evil",
+			"name": "Gorvak, King of Evil",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "TSS",
@@ -31188,7 +31191,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Ganon is an 18th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 10} to hit with spell attacks). He has the following spells prepared:"
+						"Gorvak is an 18th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 10} to hit with spell attacks). He has the following spells prepared:"
 					],
 					"spells": {
 						"1": {
@@ -31235,25 +31238,25 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If Ganondorf fails a saving throw, he can choose to succeed instead."
+						"If Gorvak fails a saving throw, he can choose to succeed instead."
 					]
 				},
 				{
 					"name": "Dual Wielder",
 					"entries": [
-						"Ganon wields two greatswords and can use a bonus action to make a second attack on his turn. While wielding both greatswords, Ganon gains a +1 to AC. He can draw or stow his greatswords as though they were one weapon."
+						"Gorvak wields two greatswords and can use a bonus action to make a second attack on his turn. While wielding both greatswords, Gorvak gains a +1 to AC. He can draw or stow his greatswords as though they were one weapon."
 					]
 				},
 				{
 					"name": "Two Weapon Fighting",
 					"entries": [
-						"Ganon can add his Strength to the damage of his second attack."
+						"Gorvak can add his Strength to the damage of his second attack."
 					]
 				},
 				{
 					"name": "Returning Trident",
 					"entries": [
-						"After Ganon makes a Great Trident attack, he can recall his Great Trident as a bonus action if the Great Trident is unrestrained and if Ganon can see it."
+						"After Gorvak makes a Great Trident attack, he can recall his Great Trident as a bonus action if the Great Trident is unrestrained and if Gorvak can see it."
 					]
 				}
 			],
@@ -31261,7 +31264,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Ganon makes four greatsword attacks."
+						"Gorvak makes four greatsword attacks."
 					]
 				},
 				{
@@ -31281,25 +31284,25 @@
 				{
 					"name": "Great Trident",
 					"entries": [
-						"If he is weilding the Great Trident, Ganon can make a Great Trident attack."
+						"If he is weilding the Great Trident, Gorvak can make a Great Trident attack."
 					]
 				},
 				{
 					"name": "Summon Allies",
 					"entries": [
-						"Roll 1d20 and Ganon summons any creature(s) from the Wizzrobe summon table (Legend of Zelda Monster Manual p. 63). This action cannot be used again until all creatures summoned this way have been killed."
+						"Roll 1d20 and Gorvak summons any creature(s) from the Wizzrobe summon table (Legend of Zelda Monster Manual p. 63). This action cannot be used again until all creatures summoned this way have been killed."
 					]
 				},
 				{
 					"name": "Frightening Gaze (Costs 2 Actions)",
 					"entries": [
-						"Ganon fixes his gaze on one creature he can see within 10 feet of him. The target must succed on a DC 18 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself as a success. If a target's saving throw is successful or the effect ends for it, the target is immune to Ganon's gaze for the next 24 hours."
+						"Gorvak fixes his gaze on one creature he can see within 10 feet of him. The target must succed on a DC 18 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself as a success. If a target's saving throw is successful or the effect ends for it, the target is immune to Gorvak's gaze for the next 24 hours."
 					]
 				},
 				{
 					"name": "Disrupt Life (Costs 3 Actions)",
 					"entries": [
-						"Each living creature within 20 feet of Ganon must make a DC 18 Constitution saving throw against this magic, taking {@h}21 ({@damage 6d6} necrotic damage on a failed save, or half as much damage on a successful one."
+						"Each living creature within 20 feet of Gorvak must make a DC 18 Constitution saving throw against this magic, taking {@h}21 ({@damage 6d6} necrotic damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
