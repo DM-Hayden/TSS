@@ -31654,8 +31654,8 @@
 			"group": [
 				"Chromatic Dragon"
 			],
-			"source": "MM",
-			"page": 101,
+			"source": "TSS",
+			"page": 999,
 			"srd": true,
 			"otherSources": [
 				{
@@ -31724,7 +31724,7 @@
 
 			},
 			"senses": [
-				"truesight 60 ft.",
+				"blindsight 60 ft.",
 				"darkvision 120 ft.",
 				"tremorsense 120 ft."
 			],
