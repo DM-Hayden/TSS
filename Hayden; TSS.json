@@ -36896,7 +36896,8 @@
 							"{@spell counterspell} (as 3rd-level spell)",
 							"{@spell fireball} (as 3rd-level spell)",
 							"{@spell scorching ray} (as 3rd-level spell)",
-							"{@spell stinking cloud} (as 3rd-level spell)"
+							"{@spell stinking cloud} (as 3rd-level spell)",
+							"{@spell darkness}"
 						]
 					},
 					"will": [
