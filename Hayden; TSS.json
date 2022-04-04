@@ -31849,7 +31849,7 @@
 				"perception": "+11",
 				"stealth": "+5",
 				"athletics": "+12", 
-				"athleticsExp": "+17"
+				"athletics (Exp)": "+17"
 
 			},
 			"senses": [
@@ -36777,6 +36777,158 @@
 					}
 				]
 			}
+		},
+		{
+			"source": "MonsterManualExpanded3",
+			"page": 174,
+			"name": "_Urd Warlock of the Fiend",
+			"environment": [
+				"arctic",
+				"badlands",
+				"coastal",
+				"forest",
+				"hill",
+				"jungle/Tropical",
+				"swamp",
+				"urban"
+			],
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"kobold"
+				]
+			},
+			"alignmentPrefix": "typically ",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 40,
+				"formula": "9d6 + 9"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 7,
+			"dex": 14,
+			"con": 12,
+			"int": 10,
+			"wis": 7,
+			"cha": 15,
+			"skill": {
+				"arcana": "+2",
+				"religion": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Dark One's Own Luck (Recharges After A Short Or Long Rest)",
+					"entries": [
+						"rWhen the kobold makes an ability check or saving throw, it can add a d10 to the roll. It can do this after the roll is made but before any of the roll's effects occur."
+					]
+				}
+			],
+			"traitTags": [
+				"Sunlight Sensitivity",
+				"Pack Tactics"
+			],
+			"action": [
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"type": "spellcasting",
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The kobold casts one of the following spells using Charisma as the spellcasting ability (spell save {@dc 12}, {@hit 4} to hit with spell attacks):"
+					],
+					"ability": "cha",
+					"displayAs": "action",
+					"daily": {
+						"2": [
+							"{@spell blindness/deafness} (as 3rd-level spell)",
+							"{@spell burning hands} (as 3rd-level spell)",
+							"{@spell counterspell} (as 3rd-level spell)",
+							"{@spell fireball} (as 3rd-level spell)",
+							"{@spell scorching ray} (as 3rd-level spell)",
+							"{@spell stinking cloud} (as 3rd-level spell)"
+						]
+					},
+					"will": [
+						"{@spell eldritch blast} (2 beams, {@damage 1d10 + 2})",
+						"{@spell false life}",
+						"{@spell mage hand}",
+						"{@spell silent image}",
+						"{@spell thunderclap|xge} ({@damage 2d6})"
+					]
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"conditionInflictSpell": [
+				"blinded"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MonsterManualExpanded3/creature/token/Urd%20Warlock%20Of%20The%20Fiend%20%28Token%29.png",
+			"fluff": {},
+			"altArt": [
+				{
+					"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MonsterManualExpanded3/creature/token/Kobold%20Urd%20Warlock%20of%20the%20Fiend%20%28Token%202%29.png"
+				}
+			]
 		},
 		{
 			"name": "Corrupted Hyena",
